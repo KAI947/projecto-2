@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Practica1</title>
+	<style type="text/css">
+		label{
+			width: 150px;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+<form method="get">
+	<fieldset>
+		<legend>TU PUÑETERA VIDA QUIERO AQUI:</legend>
+		<label>TU VIDA:</label>
+		<input type="text" name="usuario"/autofocus/><br/>
+
+        <label>TU CUENTA:</label>
+        <input type="password" name="pwd"><br/>
+        <input type="radio" name="sexo" value="H" checked="checked"/>
+        <label>Hombreton</label>
+        <input type="radio" name="sexo" value="M"/>
+        <label>Niña bonita</label>
+        <input type="radio" name="sexo" value="H"/>
+        <label>Ruben muerete</label>
+        <input type="radio" name="sexo" value="M"/>
+        <label>Ismael dame tu cuenta bancaria</label>
+        <input type="radio" name="sexo" value="H"/>
+        <label>Hacer lo correcto por muy dura que este la situacion</label>
+	</fieldset>
+		<input type="submit" value="Enviar"/>
+	    <input type="reset" value="Borrar"/>
+	<fieldset>
+		<legend>Obligacion</legend>
+		<input type="checkbox" name="Visa" value="v"/>
+		<label>Doy visa con 14 millones</label>
+		<input type="checkbox" name="Mastercard" value="M">
+		<label>Doy mastercard con muchos billones</label>
+		<input type="checkbox" name="AmericanExpress" value="A">
+		<label>Te doy toda mi cuenata bancaria</label>
+		<input type="checkbox" name="Paypal" value="P">
+		<label>Transfiereme todo tus bienes y tus finanzas y todo tu dinero por poco que sea</label>
+		<input type="checkbox" name="Santander" value="S">
+		<label>Ruben copia y pega codigo</label>
+
+	</fieldset>
+	<input type="submit" value="Enviar"/>
+	<input type="reset" value="Borrar"/></br>
+	<select name="provincia">
+		<option selected="selected" value="Barcelona">Barcelona</option>
+		<option value="Girona">Girona</option>
+		<option value="LLeida">LLeida</option>
+		<option value="Tarragona">Tarragona</option>	
+	</select>
+	<select name="Aficiones">
+		<option selected="selected" value="Otaku">Otaku</option>
+		<optgroup label="Anime">
+			<option value="Boku no hero">Boku no hero</option>
+			<option value="One Punch MAN">One Punch Man</option>
+		</optgroup>
+		<optgroup label="Deporte">
+			<option value="Futbol">Futbol</option>
+			<option value="Basket">Basket</option>
+		</optgroup>
+	</select>
+	</br>
+	<label>Aficiones</label>
+	<textarea rows="10" cols="40">Descripcion</textarea>
+	<button type="submit">Enviar</button>
+</form>
+</body>
+</html>

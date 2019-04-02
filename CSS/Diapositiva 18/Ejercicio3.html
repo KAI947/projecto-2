@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<style type="text/css">
+	body{
+		background-image: url(logo.gif);
+		background-repeat: no-repeat;
+		background-size:100%;
+	}
+	h1{
+		color: white;
+	}
+	    .cubo{
+	    	position: relative;
+	    	transform-style: preserve-3d;
+	    	height: 200px;
+	    	width: 200px;
+	    	transform: rotateX(-45deg) rotateY(45deg);
+	    	left: 15%;
+	    	padding: 5%
+	    }
+	    .cubo:hover{
+	    	transform: rotateX(160deg) rotateY(160deg) translateZ(-500px);
+	    	transition: 5s;
+	    }
+	    .cara{
+	    	position: absolute;
+	    	border: solid 1px black;
+	    	height: 200px;
+	    	width: 200px;
+	    	text-align: center;
+	    }
+		.front{
+			background-color: rgba(255,0,0,0.5);
+			transform: translateZ(100px);
+		}
+		.back{
+			background-color: rgba(255,0,0.5);
+			transform: rotateY(180deg) translateZ(100px);
+		}
+		.left{
+			background-color: rgba(0,0,255,0.5);
+			transform: rotateY(90deg) translateZ(100px);
+		}
+		.right{
+			background-color: rgba(255,255,0,0.5);
+			transform: rotateY(-90deg) translateZ(100px);
+		}
+		.top{
+			background-color: rgba(255,0,255,0.5);
+			transform: rotateX(90deg) translateZ(100px);
+		}
+		.bottom{
+			background-color: rgba(0,255,255,0.5);
+			transform: rotateX(-90deg) translateZ(100px);
+		}
+	</style>
+</head>
+<body>
+	<h1>MI CUBO MAGICO CHIIIIIII!</h1>
+	<div class="cubo">
+		<div class="cara front"><img src="vegeta.gif"></div>
+		<div class="cara back"><img src="goku.gif"></div>
+		<div class="cara left"><img src="para.gif"></div>
+		<div class="cara right"><img src="gogeta.gif"></div>
+		<div class="cara top"><img src="listo.gif"></div>
+		<div class="cara bottom"><img src="saiyan.gif"></div>
+	</div>
+	<h1>GO GLORIA GO GLORIA</h1>
+	<h1>GOGETA GOGETA GOGETA</h1>
+	<h1>SUPERKAMI</h1>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio largo 1</title>
+	<script>
+		function factor(){
+			var numero = parseInt(document.getElementById('numero').value);
+			var resultado = 1;
+
+			for(let i=1;i<=numero;i++){
+				resultado *=i;
+			}
+			alert(resultado);
+		}
+	</script>
+</head>
+<body>
+	<h1>FACTORIAL</h1>
+	<span>Numero factorial:</span>
+	<input type="number" id="numero">
+	<button onclick="factor();">calcula</button>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+</head>
+<body>
+	<script>
+		function frutas(){
+			var fruta = ["platano", "naranja", "limon", "manzana","mango"];
+			var citricos = fruta.slice(1, 3);
+			alert(citricos);
+		}
+		function barreras(){
+			var barrera = ["sonido", "luz", "tiempo", "dimension"];
+			barrera.sort();
+			alert(barrera);
+		}
+		function marcas(){
+			var marca = ["nike", "adidas", "puma", "umbro"];
+			marca.splice(2, 0, "kappa", "kelme");
+			alert(marca);
+		}
+		function caballeros(){
+			var caballero = ["divino", "oro", "plata", "bronce"];
+			caballero.toString();
+			alert(caballero);
+		}
+		function tiros(){
+			var tiro = ["lejano", "medio", "bajo", "aleatorio"];
+			tiro.unshift("centrado","equilibrado");
+			alert(tiro);
+		}
+		function generos(){
+			var genero = ["drama", "suspense", "comedia", "romance"];
+			genero.valueOf();
+			alert(genero);
+		}
+		function verdades(){
+			var yo = ["leyenda", "viva"];
+			var soy = ["heroe", "unico", "poderoso"];
+			var verdad = yo.concat(soy);
+			alert(verdad);
+		}
+		function frutas2(){
+			var fruta = ["platano", "naranja", "manzana","mango"];
+			var citrico = fruta.indexOf("manzana");
+			alert(citrico);
+		}
+		function barreras2(){
+			var barrera = ["sonido", "luz", "tiempo", "dimension"];
+			barrera.join();
+			alert(barrera);
+		}
+		function marcas2(){
+			var marca = ["nike", "adidas", "puma", "umbro"];
+			var comp = marca.lastIndexOf("puma");
+			alert(comp);
+		}
+			function caballeros2(){
+			var caballero = ["divino", "oro", "plata", "bronce"];
+			caballero.pop();
+			alert(caballero);
+		}
+			function tiros2(){
+			var tiro = ["lejano", "medio", "bajo", "aleatorio"];
+			tiro.push("centrado");
+			alert(tiro);
+		}
+		function generos2(){
+			var genero = ["drama", "suspense", "comedia", "romance"];
+			genero.reverse();
+			alert(genero);
+		}
+		function heroe(){
+			var yo = ["leyenda", "viva", "heroe", "unico"];
+            yo.shift();
+			alert(yo);
+		}
+	</script>
+	<h1>METODOS DE ARRAY</h1>
+	<span>slice :</span>
+	<button onclick="frutas();">HAZ click</button>
+	<hr>
+	<span>sort :</span>
+	<button onclick="barreras();">HAZ click</button>
+	<hr>
+	<span>splice :</span>
+	<button onclick="marcas();">HAZ click</button>
+	<hr>
+	<span>string :</span>
+	<button onclick="caballeros();">HAZ click</button>
+	<hr>
+	<span>unshift :</span>
+	<button onclick="tiros();">HAZ click</button>
+	<hr>
+	<span>valueOf :</span>
+	<button onclick="generos();">HAZ click</button>
+	<hr>
+	<span>concat :</span>
+	<button onclick="verdades();">HAZ click</button>
+	<hr>
+	<span>indexOf :</span>
+	<button onclick="frutas2();">HAZ click</button>
+	<hr>
+	<span>join :</span>
+	<button onclick="barreras2();">HAZ click</button>
+	<hr>
+	<span>lastIndexOf :</span>
+	<button onclick="marcas2();">HAZ click</button>
+	<hr>
+	<span>pop :</span>
+	<button onclick="caballeros2();">HAZ click</button>
+	<hr>
+	<span>Push :</span>
+	<button onclick="tiros2();">HAZ click</button>
+	<hr>
+	<span>reverse :</span>
+	<button onclick="generos2();">HAZ click</button>
+	<hr>
+	<span>shift :</span>
+	<button onclick="heroe();">HAZ click</button>
+</body>
+</html>

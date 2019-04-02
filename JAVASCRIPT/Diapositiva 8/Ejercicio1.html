@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+	<script>
+		var i=1;
+		function img(){
+			image.src="luffy"+i+".png";
+			i++;
+			if(i==7){
+				i=1;
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<h1>LUFFY Y SUS MARCHAS</h1>
+	<img id="image" src="luffy1.png" onclick="img();">
+</body>
+</html>

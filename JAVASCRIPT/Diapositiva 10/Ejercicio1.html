@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+</head>
+<body>
+	<script>
+	function literatura(){
+	var str = "Rosa de los vientos";
+	var res1 = str.charAt(0);
+	alert(res1);
+     }
+     function literatura1(){
+     	var str1 = "kai ";
+     	var str2 = "legend";
+     	var res = str1.concat(str2);
+     	alert(res);
+     }
+     function literatura2(){
+     	var str = "busqueda";
+     	var res = str.replace("busqueda", "encontrada");
+     	alert(res);
+     }
+     function literatura3(){
+     	var str = "La libertad no se busca y se obtiene";
+     	var n = str.indexOf("libertad");
+     	alert(n);
+     }
+     function literatura4(){
+     	var str = "Hello planet earth, you are a great planet.";
+     	var n = str.lastIndexOf("planet");
+     	alert(n);
+     }
+     function literatura5(){
+     	var str = "visitar al papa";
+     	var n = str.search("papa");
+     	alert(n);
+     }
+     function literatura6(){
+     	var str = "kame hame ha";
+     	var res = str.slice(0, 5);
+     	alert(res);
+     }
+     function literatura7(){
+     	var str = "¿que vais hacer hoy?";
+     	var res = str.split(" ");
+     	alert(res);
+     }
+     function literatura8(){
+     	var str = "a donde vas";
+     	var res = str.substring(1, 4);
+     	alert(res);
+     }
+     function literatura9(){
+     	var str = "bomba va!";
+     	var res = str.toLowerCase();
+     	alert(res);
+     }
+     function literatura10(){
+     	var str = "torta va";
+     	var res = str.toUpperCase();
+     	alert(res);
+     }
+     function literatura11(){
+     	var str = "       toooooonnntooooo       ";
+     	alert(str.trim());
+     }
+	</script>
+	<span>CharAt:</span>
+	<button onclick="literatura();">HAZ CLICK</button>
+	<hr>
+	<span>Concat:</span>
+	<button onclick="literatura1();">HAZ CLICK</button>
+	<hr>
+	<span>Replace:</span>
+	<button onclick="literatura2();">HAZ CLICK</button>
+	<hr>
+	<span>IndexOf:</span>
+	<button onclick="literatura3();">HAZ CLICK</button>
+	<hr>
+	<span>LastIndexOf:</span>
+	<button onclick="literatura4();">HAZ CLICK</button>
+	<hr>
+	<span>Search:</span>
+	<button onclick="literatura5();">HAZ CLICK</button>
+	<hr>
+	<span>Slice:</span>
+	<button onclick="literatura6();">HAZ CLICK</button>
+	<hr>
+	<span>Split:</span>
+	<button onclick="literatura7();">HAZ CLICK</button>
+	<hr>
+	<span>Substring:</span>
+	<button onclick="literatura8();">HAZ CLICK</button>
+	<hr>
+	<span>toLowerCase:</span>
+	<button onclick="literatura9();">HAZ CLICK</button>
+	<hr>
+	<span>toUpperCase:</span>
+	<button onclick="literatura10();">HAZ CLICK</button>
+	<hr>
+	<span>Trim:</span>
+	<button onclick="literatura11();">HAZ CLICK</button>
+	<hr>
+</body>
+</html>

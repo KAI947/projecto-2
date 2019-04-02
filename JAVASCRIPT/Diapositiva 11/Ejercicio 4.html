@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+	<style>
+		h1{
+			color: gold;
+			text-shadow: 4px 4px 4px silver;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		function fibo(){
+			var fibona = [1,1];
+			for(let i = 2; i <= 20; i++){
+				fibona[i] = fibona[i-2]+fibona[i-1];			
+			}
+			alert(fibona);
+		}
+	</script>
+	<h1>FIBONACCI</h1>
+	<span>sucesion de numeros sumados entre si</span>
+	<button onclick="fibo();">clica aqui para fibonacci</button>
+</body>
+</html>

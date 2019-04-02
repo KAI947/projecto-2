@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+	<script>
+		function hipotenusa(cateto,cateto2){
+			alert(Math.sqrt(cateto*cateto2+cateto*cateto2));
+		}
+	</script>
+</head>
+<body>
+	<h1>Teorema de pitagoras</h1>
+	<span>Hipotenusa:</span>
+	<input type="number" id="cateto">
+	<input type="number" id="cateto2">
+	<button onclick="hipotenusa(cateto.value, cateto2.value);">calcula</button>
+</body>
+</html>

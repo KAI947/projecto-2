@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejemplo 1</title>
+	<script>
+		function calcular(){
+			var nota = parseInt(innota.value);
+			var notaTexto = '';
+
+			switch(nota){//calcular la nota
+				case 0:
+				case 1:
+				case 2: notaTexto = "Deficiente"; break;
+				case 3:
+				case 4: notaTexto = "Suspenso"; break;
+				case 5:
+				case 6: notaTexto = "Aprobado"; break;
+				case 7:
+				case 8: notaTexto = "Notable"; break;
+				case 9:
+				case 10: notaTexto = "Excelente"; break;
+				default: notaTexto = "Error en la nota";
+			}
+			//imprimir resultados
+			outnota.innerHTML = notaTexto;
+		}
+	</script>
+</head>
+<body>
+	<h2>NOTA de need for speed</h2>
+	<input type="number" id="innota">
+	<button type="button" onclick="calcular();">calcula</button>
+	<output id="outnota"></output>
+</body>
+</html>

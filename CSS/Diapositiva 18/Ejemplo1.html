@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejemplo</title>
+	<style type="text/css">
+		#libro:hover{
+			position: absolute;
+			top: 10%; height: 300px;
+			left: 15%; width: 200px;
+			transform-style: preserve-3d;
+			transform: rotateX(50deg) rotateY(-50deg);
+			transition: 10s;
+		}
+		#libro img{
+			position: absolute;
+			border: solid 1px black;
+			height: 100%; width: 100%;
+			transform-origin: 0% 50%;
+		}
+		#libro .portada{transform: rotateY(-50deg) rotateX(0deg);}
+		#libro .hoja:nth-of-type(2){transform: rotateY(5deg) rotateX(0deg);}
+		#libro .hoja:nth-of-type(3){transform: rotateY(10deg) rotateX(0deg);}
+		#libro .hoja:nth-of-type(4){transform: rotateY(15deg) rotateX(0deg);}
+		#libro .hoja:nth-of-type(5){transform: rotateY(20deg) rotateX(0deg);}
+		#libro .contraportada{transform: rotateY(25deg) rotateX(0deg);}
+	</style>
+</head>
+<body>
+	<h1>comic spider-man</h1>
+	<div id="libro">
+		<img class="portada" src="portada.jpg">
+		<img class="hoja" src="hoja.jpg">
+		<img class="hoja" src="hoja2.jpg">
+		<img class="hoja" src="hoja3.jpg">
+		<img class="hoja" src="hoja4.jpg">
+		<img class="contraportada" src="contraportada.jpg">
+	</div>
+</body>
+</html>

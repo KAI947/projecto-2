@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>Ejercicio 1</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 10px;
+		}
+		body{
+			padding: 20px;
+		}
+		header{
+			background-color: #f99;
+			grid-area: cabecera;
+		}
+		form{
+			background-color: yellow;
+
+		}
+		aside:first-of-type{
+			background-color: #99f;
+			grid-area: aside1;
+		}
+		aside:nth-of-type{
+			background-color: #99f;
+			grid-area: aside2;
+
+		}
+		aside:last-of-type{
+			background-color: #99f;
+			grid-area: aside3;
+
+		}
+		main{
+			background-color: #9ff;
+			grid-area: contenido;
+
+		}
+		footer{
+			background-color: #f9f;
+			grid-area: footer;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera cabecera login'
+			'aside1 contenido contenido contenido'
+			'aside2 contenido contenido contenido'
+			'aside3 contenido contenido contenido'
+			'footer footer footer footer';
+			grid-gap: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>SUCESION</h1>
+
+	<div class="grid-container">
+		<header>HEADER</header>
+		<form>LOGIN</form>
+		<aside>ASIDE</aside>
+		<aside>ASIDE</aside>
+		<aside>ASIDE</aside>
+		<main>MAIN</main>
+		<footer>FOOTER</footer>
+	</div>
+</body>
+</html>

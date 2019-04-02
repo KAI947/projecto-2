@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio</title>
+	<style type="text/css">
+	    body{
+	    	padding: 100px;
+	    }
+	    #lienzo{
+	    	height: 500px;
+	    	width: 700px;
+	    	border: solid 1px #000;
+	    }
+	    div.pixel{
+	    	height: 5px;
+	    	width: 5px;
+	    	float: left;
+	    }
+		div{
+			height: 500px;
+			width: 700px;
+			border: solid 1px black;
+			display: inline-block;
+		}
+	</style>
+	<script>
+		function colorea(element,incolor){
+			element.style.backgroundColor=incolor;
+			for(let i=0, i<=1000; i++){
+				document.write('<div class="pixel"></div>')
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Colorea</h1>
+	<p>cutre paint</p>
+
+	<span>Color</span>
+	<input type="color" id="incolor" value="#ff0000">
+    <div onclick="colorea(this, incolor.value)" id="lienzo"></div>
+	<button onclick="colorea(document.body,incolor.value);">Colorear body</button>
+</body>
+</html>

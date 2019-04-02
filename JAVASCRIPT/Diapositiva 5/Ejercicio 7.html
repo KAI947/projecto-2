@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 7</title>
+	<script>
+		function calcular(){
+			var pre = parseFloat(document.getElementById('Preguntas').value);
+			var dpe = parseFloat (document.getElementById('Descuento').value);
+			var a = parseFloat (document.getElementById('aciertos').value);
+			var e = parseFloat (document.getElementById('error').value);
+
+			var nc = pre-(a+e);
+			var nsd = (10/pre)*a;
+			var ncd = nsd-((10/p*d)*e);
+
+			document.getElementById('as').innerHTML=a;
+			document.getElementById('es').innerHTML=e;
+			document.getElementById('nc').innerHTML=nc;
+			document.getElementById('nsd').innerHTML=nsd;
+			document.getElementById('ncd').innerHTML=ncd;
+
+			if(ncd<5){
+				document.getElementById('notaFinal').innerHTML=
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>CALCULADORA DE NOTAS</h1>
+	<h2>Para calcular el resultado de los test</h2>
+	<h2>Entrada de datos</h2>
+	<h3>Parametros</h3>
+	<span>Preguntas:</span>
+	<input type="number" id="pre"><br>
+	<span>Descuento por error:</span>
+	<select id="dpe">
+		<option value="0">0%</option>
+		<option value="0.25">25%</option>
+		<option value="0.33">33%</option>
+		<option value="0.50">50%</option>
+		<option value="0.66">66%</option>
+		<option value="0.75">75%</option>
+		<option value="1">100%</option>
+	</select><br>
+	<h3>Resultados</h3>
+	<span>Aciertos:</span>
+	<input type="number" id="a"><br>
+	<span>Errores:</span>
+	<input type="number" id="e"><br>
+	<button onclick="calcula();">calcula</button><hr>
+	<span>Aciertos:</span><output id="as"></output><br>
+	<span>Errores:</span><output id="es"></output><br>
+	<span>no contestadas:</span><output id="nc"></output><br>
+	<span>notas sin descuento:</span><output id="nsd"></output><br>
+</body>
+</html>

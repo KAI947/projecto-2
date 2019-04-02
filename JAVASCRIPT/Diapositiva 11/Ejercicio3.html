@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<h1>tu letra del DNI (Documento Nacional de Identidad)</h1>
+	<script>
+		function letra(){
+			var d = dni.value;
+			var result = (d % 23);
+
+			var num = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"];
+			num=num[result];
+			alert(num);
+		}
+		
+	</script>
+	<span>DNI :</span>
+	<input type="number" id="dni">
+	<button onclick="letra();">tu letra</button>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>Gleria de fotos</title>
+	<style type="text/css">
+		body, header, nav, main, footer{
+
+		}
+		*{
+			margin: 19px;
+			padding: 10px;
+			background-color: #FFFFFF;
+		}
+		body{
+			padding: 20px;  
+		}
+		header{
+			grid-area: cabecera;
+			background-color: black;
+		}
+		h1{
+			text-align: center;
+			width: 25%;
+			margin: auto;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: inline-block;
+			color: black;
+			text-align: center;
+			padding: 14px 170px;
+			text-decoration: none;
+			font-size: 1vw;
+		}
+		nav{
+			grid-area: navegacion;
+			background-color: black;  
+		}
+		main{
+			grid-area: contenido;
+			background-color: black;
+		}
+		img{
+			display: inline-block;
+			filter: grayscale(100%);
+			transition: filter 0.4s;
+			cursor: zoom-in;
+		}
+		 img:hover{
+			filter: grayscale(0%);
+		}
+		footer{
+			grid-area: footer;
+			background-color: black;
+			text-align: right;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera cabecera login'
+			'navegacion navegacion navegacion navegacion'
+			'contenido contenido contenido'
+			'contenido contenido contenido'
+			'contenido contenido contenido'
+			'footer footer footer footer';
+			grid-gap: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>GALERIA DE PAISAJES</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Ejercicio2.html">PAISAJES</a></li>
+			<li><a href="Ejercicio%202B.html">RETRATOS</a></li>
+			<li><a href="Ejercicio2c.html">OBRAS</a></li>
+		</ul>
+	</nav>
+	<main>
+		<img src="paisaje1.jpg">
+		<img src="paisaje2.jpg">
+		<img src="paisaje3.jpg">
+		<img src="paisaje4.jpg">
+		<img src="paisaje5.png">
+		<img src="paisaje6.jpg">
+		<img src="paisaje7.jpg">
+		<img src="paisaje8.jpg">
+		<img src="paisaje9.jpg">
+	</main>
+	<footer>
+		<h2>BY: MANUEL CANDELA </h2>
+		<h2>(KAI 94)</h2>
+	</footer>
+</body>
+</html>

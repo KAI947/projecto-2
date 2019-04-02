@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio prueba 1</title>
+</head>
+<body>
+	<form method="post">
+		<fieldset>
+		<h1>Ejercicio 1-A</h1>
+		<input type="hidden" name="dnilogin" value="1">
+		<label>DNI:</label>
+		<input type="text" pattern="^[\dXYZ]\d{7}[A-Z]$" maxlength="9" title="DNI valido"/><br/>
+		<input type="submit" value="acceder">
+    </form>
+    <form>
+		<h1>Ejercicio 1-B</h1>
+		<input type="hidden" name="dnilogin" value="1">
+		<label>DNI 2:</label>
+		<input type="text" name="dnilogin" pattern="^\d{7}[^iouñIOUÑ]$" maxlength="9" title="DNI valido"/><br/>
+		<input class="button" type="submit" value="acceder">
+	</form>
+	<form>
+		<h1>Ejercicio 1-C</h1>
+		<input type="hidden" name="login" value="1">
+		<label>DNI/NIE:</label>
+		<input type="text" name="dnilogin" pattern="(^[XYZ]\d{7}[A-HJ-NP-TV-Z{1}$)|(^[\dXYZ]\d{7}[A-Z]$)" maxlength="10"/><br/>
+		<input class="button" type="submit" value="acceder">
+		<form>
+			<h1>Ejercicio 1-D</h1>
+			<input type="hidden" name="login" value="1">
+		<label>HORA:</label>
+		<input type="time" name="hora" step="1"><br/>
+		<input class="button" type="submit" value="acceder">
+		</form>
+		<form>
+			<h1>Ejercicio 1-E</h1>
+			<label>Telefono</label>
+			<input type="text" name="tel" pattern="^[+][1-9]\d{1,2}\s\d{2}$"/><br/>
+		<input class="button" type="submit" value="acceder">
+		</form>
+		<form>
+			<h1>Ejercicio 1-F</h1>
+			<input type="hidden" name="login" value="1">
+		<label>FECHA:</label>
+		<input type="date" name="fecha" step="1" /><br/>
+		<input class="button" type="submit" value="acceder">
+		</form>
+		<form>
+			<h1>Ejercicio 1-G</h1>
+			<input type="hidden" name="login" value="1">
+		<label>AÑO:</label>
+		<input type="text" name="fecha" pattern="^([0][1-9])|([12]\d)|([3][01])):(([0][1-9])|([1][012])):(([1][9]\d\d)|(([2][0]\d\d)|[2][1][0][0]))$" maxlength="9" title=""/><br/>
+		<input class="button" type="submit" value="acceder">
+		</form>
+	</fieldset>
+	</form>
+</body>
+</html>

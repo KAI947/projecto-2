@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplo 1</title>
+	<script >
+		function sumar(){
+			//recuperar los valores que necesitamos
+			var n1=parseFloat(numero1.value);
+			var n2=parseFloat(numero2.value);
+			var n3=parseFloat(numero3.value);
+			var n4=parseFloat(numero4.value);
+
+			//realizar el calculo
+			var calculo=n1+n2+n3+n4;
+
+			//mostar el resultado
+			resultado.innerHTML=calculo;
+		}
+			function restar(){
+			//recuperar los valores que necesitamos
+			var n1=parseFloat(numero1.value);
+			var n2=parseFloat(numero2.value);
+			var n3=parseFloat(numero3.value);
+			var n4=parseFloat(numero4.value);
+
+			//realizar el calculo
+			var calculo=n1-n2-n3-n4;
+
+			//mostar el resultado
+			resultado.innerHTML=calculo;
+		}
+			function multiplicar(){
+			//recuperar los valores que necesitamos
+			var n1=parseFloat(numero1.value);
+			var n2=parseFloat(numero2.value);
+			var n3=parseFloat(numero3.value);
+			var n4=parseFloat(numero4.value);
+
+			//realizar el calculo
+			var calculo=n1*n2*n3*n4;
+
+			//mostar el resultado
+			resultado.innerHTML=calculo;
+		}
+			function dividir(){
+			//recuperar los valores que necesitamos
+			var n1=parseFloat(numero1.value);
+			var n2=parseFloat(numero2.value);
+			var n3=parseFloat(numero3.value);
+			var n4=parseFloat(numero4.value);
+
+			//realizar el calculo
+			var calculo=n1/n2/n3/n4;
+
+			//mostar el resultado
+			resultado.innerHTML=calculo;
+		}
+	</script>
+</head>
+<body>
+	<h1>SUMAS/RESTAS/MULTIPLICACIONES/DIVISIONES</h1>
+	
+	<span>Numero1:</span>
+	<input type="number" id="numero1" value="0">
+	<br>
+
+	<span>Numero2:</span>
+	<input type="number" id="numero2" value="0">
+	<br>
+
+	<span>Numero3:</span>
+	<input type="number" id="numero3" value="0">
+	<br>
+
+	<span>Numero4:</span>
+	<input type="number" id="numero4" value="0">
+	<br>
+
+	<button onclick="sumar();">sumar</button>
+	<button onclick="restar();">restar</button>
+	<button onclick="multiplicar();">multiplicar</button>
+	<button onclick="dividir();">dividir</button><br>
+
+	<span>RESULTADO:</span>
+	<output id="resultado">0</output><br>
+</body>
+</html>

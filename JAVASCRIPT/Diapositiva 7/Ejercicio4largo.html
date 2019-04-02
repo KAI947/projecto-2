@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4 largo</title>
+		<script>
+		function escalar(imagen){
+			imagen.height*=2;
+			imagen.width*=2;
+
+		}
+		function colorear(elemento,color){
+			elemento.style.backgroundColor=color;
+		}
+	   </script>
+	   <style>
+	   	div{
+	   		height: 500px;
+	   		width: 500px;
+	   		display: inline-block;
+	   	}
+
+	   </style>
+</head>
+<body>
+	<h1>Galeria de imagenes</h1>
+<div>
+<img src="natsu1.png" onmouseenter="escalar(this, 1.0);" onmouseleave="escalar(this, 0.5);" id="foto">
+</div>
+<div>
+<img src="natsu2.jpg" onmouseenter="escalar(this, 1.0);" onmouseleave="escalar(this, 0.5);" id="foto">
+</div>
+<div>
+<img src="natsu3.jpg" onmouseenter="escalar(this, 1.0);" onmouseleave="escalar(this, 0.5);" id="foto">
+</div>
+<div>
+<img src="nastu4.jpg" onmouseenter="escalar(this, 1.0);" onmouseleave="escalar(this, 0.5);" id="foto">
+</div>
+<div>
+<img src="nastu5.png" onmouseenter="escalar(this, 1.0);" onmouseleave="escalar(this, 0.5);" id="foto">
+</div>
+</body>
+</html>

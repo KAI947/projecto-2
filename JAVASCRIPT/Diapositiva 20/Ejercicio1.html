@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1(pruebas)</title>
+</head>
+<body>
+	<script>
+		var tiempo = 10;
+		function evaluar(){
+			if(tiempo-- == 0){
+				propaganda.remove();
+				clearInterval(timer);
+			}else
+			    trestante.innerHTML = tiempo;
+		}
+		function cierraPropaganda(){
+			propaganda.remove();
+		}
+		var timer = window.setInterval(evaluar, 1000);
+		var timer = setTimeout(cierraPropaganda, 5000);
+	</script>
+	<h1>HAY VIENE LA PUBLICIDAD</h1>
+	<p>VERAS QUE SE QUITA EN DIEZ SEGUNDOS SI NO FUNDES EL RATON A CLICKS</p>
+	<div id="propaganda">
+		<h2>Propaganda barata que no vale nada</h2>
+		<p> POR SU BIEN SE QUITARA EN <span id="trestante">10</span>s.</p>
+		<p>SE IRA EN 5 SEGUNDOS O SI HACES CLIC<b onclick="cierraPropaganda(); clearTimeout(timer);">aqui</b>.</p>
+		<img src="ikea.jpg" alt="aununcio">
+	</div>
+</body>
+</html>

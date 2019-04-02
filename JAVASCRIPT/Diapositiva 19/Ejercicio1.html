@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>EJercicio 1</title>
+</head>
+<body>
+	<script>
+		function bold(elemento){
+			elemento.style.fontWeight='bold';
+		}
+		function normal(elemento){
+			elemento.style.fontWeight='normal';
+		}
+		function italic(elemento){
+			elemento.style.fontStyle='italic';
+		}
+		function normal2(elemento){
+			elemento.style.fontStyle='normal';
+		}
+	</script>
+	<div onmouseover="italic(this);" onmouseout="normal2(this);">
+
+		<h1>La cancion del pirata</h1>
+
+		<p onmouseover="bold(this);"onmouseout="normal(this);">Con diez cañones por banda</p>
+		<p onmouseover="bold(this); "onmouseout="normal(this);">viento en popa a toda vela</p>
+		<p onmouseover="bold(this);"onmouseout="normal(this);">no corta el mar, sino vuela</p>
+		<p onmouseover="bold(this);"onmouseout="normal(this);">un velero bergantin</p>
+	</div>
+</body>
+</html>

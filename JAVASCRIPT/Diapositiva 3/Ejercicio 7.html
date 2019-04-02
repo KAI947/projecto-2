@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>EJERCICIO 7</title>
+	<script>
+		function calcular(){
+		//Recogida de todas las variables de entrada, tanto del cliente como de la empresa
+		var pfjo=2;
+		var pcm3=0.005;
+		var p100g=0.1;
+
+		var alt = document.getElementById('altura').value;
+		var ancho = document.getElementById('ancho').value;
+		var prof = document.getElementById('profundidad').value;
+		var alpeso = document.getElementById('peso').value;
+
+		//comienzo a calcular
+		var precio=0;
+		precio+=pfijo;
+		precio+=(alt*ancho*prof)*pcm3;
+
+		var calculo=precio+=(p*1000/100*)*p100g;
+
+		document.getElementById('resultado').innerHTML=
+		}
+	</script>
+</head>
+<body>
+	<h1>Tarifa de envio de paquetes</h1>
+	<h2>calculadora</h2>
+
+	<span>introduce la altura</span>
+	<input type="number" id=""><br>
+
+	<span>introduce la anchura</span>
+	<input type="number" id=""><br>
+
+	<span>introduce la profundidad</span>
+	<input type="number" id=""><br>
+
+	<span>introduce el peso</span>
+	<input type="number" id=""><br>
+
+	<button onclick="caclcular()">caclcular</button>
+</body>
+</html>

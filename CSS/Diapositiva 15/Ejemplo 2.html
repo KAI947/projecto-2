@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>Ejemplo 2</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 10px;
+		}
+		body{
+			padding: 20px;
+		}
+		header{
+			background-color: #f99;
+			grid-area: cabecera;
+		}
+		aside{
+			background-color: #99f;
+			grid-area: lateral;
+		}
+		main{
+			background-color: #9ff;
+			grid-area: principal;
+		}
+		footer{
+			background-color: #f9f;
+			grid-area: pie;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera'
+			'lateral principal'
+			'pie pie';
+			grid-gap: 10px;
+		}
+		@media screen and (max-width: 500px) {
+			.grid-container{
+				grid-template-areas: 
+				'cabecera'
+				'principal'
+				'lateral'
+				'pie';
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>SUCESION</h1>
+
+	<div class="grid-container">
+		<header>HEADER</header>
+		<aside>ASIDE</aside>
+		<main>MAIN</main>
+		<footer>FOOTER</footer>
+	</div>
+</body>
+</html>

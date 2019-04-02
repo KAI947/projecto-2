@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+	<style type="text/css">
+		#libro:hover{
+			position: absolute;
+			top: 10%; height: 300px;
+			left: 15%; width: 200px;
+			transform-style: preserve-3d;
+			transform: rotateX(60deg) rotateY(-60deg);
+			transition: 10s;
+		}
+		#libro img{
+			position: absolute;
+			border: solid 1px black;
+			height: 100%; width: 100%;
+			transform-origin: 0% 90%;
+		}
+		#libro .portada{transform: rotateY(-60deg);}
+		#libro .hoja:nth-of-type(2){transform: rotateY(20deg);}
+		#libro .hoja:nth-of-type(3){transform: rotateY(30deg);}
+		#libro .hoja:nth-of-type(4){transform: rotateY(40deg);}
+		#libro .hoja:nth-of-type(5){transform: rotateY(50deg);}
+		#libro .contraportada{transform: rotateY(60deg);}
+	</style>
+</head>
+<body>
+	<h1>DC COMICS</h1>
+	<div id="libro">
+		<img class="portada" src="dc.jpg">
+		<img class="hoja" src="flash.png">
+		<img class="hoja" src="arrow.png">
+		<img class="hoja" src="supergirl.png">
+		<img class="hoja" src="legends.jpg">
+		<img class="contraportada" src="cw.jpg">
+	</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>ejercicio 4</title>
+	<script>
+		function perimetro(){
+			var r = document.getElementById('radio').value;
+			var PI =3.1416;
+            var perimetro = 2*PI*r;
+			var area = PI*(r*r);
+			var diametro = 2*r;
+			var operacion = document.getElementById('operacion').value;
+
+
+			if(operacion=='perimetro'){
+				document.getElementById('resultado').innerHTML=perimetro;
+			}
+			if(operacion=='area'){
+				document.getElementById('resultado').innerHTML=area;
+			}
+			if(operacion=='diametro'){
+				document.getElementById('resultado').innerHTML=diametro;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>CALCULAR EL PERIMETRO, EL AREA Y EL DIAMETERO DE UNA CIRCUNFERENCIA</h1>
+	<span>Radio:</span>
+	<input type="number" id="radio">
+	<br>
+	<select id="operacion">
+	<option value="perimetro">perimetro</option>
+	<option value="area">area</option>
+	<option value="diametro">diametro</option>
+    </select>
+	<span>Resultado:</span>
+	<span id="resultado"></span>
+	<button onclick="perimetro();">calcula</button>
+
+</body>
+</html>

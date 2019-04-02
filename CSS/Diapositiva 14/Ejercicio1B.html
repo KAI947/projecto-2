@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 1B</title>
+	<style type="text/css">
+				*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	padding: 10px;
+}
+header, footer, main, aside, form{
+	text-align: center;
+	padding: 20px;
+}
+header{
+	background-color: red;
+	grid-column: 1/3;
+}
+aside{
+	background-color: lightblue;
+}
+form{
+	background-color: lightblue;
+	grid-column: 3/4;
+	grid-row: 1/3;	
+}
+main{
+	background-color: red;
+	grid-column: 1/3;
+}
+footer{
+	grid-column: 2/4;
+	background-color:lightblue; 
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+	grid-gap: 5px;
+}
+	</style>
+</head>
+<body class="grid-container">
+	<header>header</header>
+	<form>derecha</form>
+	<main>main</main>
+	<aside>izquierda</aside>
+	<footer>footer</footer>
+</body>
+</body>
+</html>

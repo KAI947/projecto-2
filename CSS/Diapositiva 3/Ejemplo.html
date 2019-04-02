@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript"></script>
+	<title>Ejemplo de javascript</title>
+</head>
+<body>
+	<h1>Colores</h1>
+	<input type="color" name="color" value="#000000" onchange="hex.innerHTML this.value;"= />
+	<div id="hex">#000000</div>
+	<script>
+		function mostrar(color){
+			res.style.backgroundColor = color; //cambia el color del div con id='res'
+			hex.innerHTML = color; //escribe el color en el div con id='hex'
+			var r = color.substr(1,2);//toma los digitos del canal rojo
+			var g = color.substr(3,2);//toma los digitos del canal verde
+			var b = color.substr(5,2);//toma los digitos del canal azul
+			//calcula los valores en el decimal y genera el texto que se muestra en el div id='rgb'
+			rgb.innerHTML = 'rgb('+parseInt(r,16)+','+parseInt(g,16)+','+parseInt(b,16)+')';
+		}
+	</script>
+	<input type="color" value="#FFFFFF" onchange="mostrar(this.value);">
+	<div id="res" style="height:90px; width:90px; border: solid 1px #000;"></div>
+	<div id="hex">#FFFFFF</div>
+	<div id="rgb">rgb(255,255,255</div>
+</body>
+</html>

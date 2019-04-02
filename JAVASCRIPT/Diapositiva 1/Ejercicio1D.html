@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculo goku</title>
+	<script >
+		function calcular(){
+			//recuperar los valores que necesitamos
+			var i=parseFloat(inicial.value);
+			var v=parseFloat(velocidad.value);
+			var t=parseFloat(tiempo.value);
+
+			//realizar el calculo
+			var calculo=i+v*t;
+
+			//mostar el resultado
+			resultado.innerHTML=calculo;
+		}
+	</script>
+</head>
+<body>
+	<h1>CALCULADORA MRU</h1>
+	<span>Posicion inicial:</span>
+	<input type="number" id="inicial" value="0">
+	<span>(m)</span><br>
+
+	<span>Velocidad:</span>
+	<input type="number" id="velocidad" value="0">
+	<span>(m/s)</span><br>
+
+	<span>Tiempo:</span>
+	<input type="number" id="tiempo" value="0">
+	<span>(s)</span><br>
+
+	<button onclick="calcular();">Calcular</button><br>
+
+	<span>RESULTADO:</span>
+	<output id="resultado">0</output><span>(m)</span><br>
+
+	<img src="goku2.png" alt="goku"
+	onmouseenter="this.src='ultra2.png'"
+	onmouseleave="this.src='goku2.png'">
+
+</body>
+</html>

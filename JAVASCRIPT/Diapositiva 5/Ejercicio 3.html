@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<script>
+		function calcula(){
+			//leer los valores de entrada
+			var salario = parseFloat(document.getElementById('salario').value);
+			var nivel = parseFloat(document.getElementById('nivel').value);
+
+			//realzar los calculos
+			salario*=nivel;
+
+			//mostrar el resultado
+			document.getElementById('resultado').innerHTML=salario;
+		}
+	</script>
+</head>
+<body>
+	<h2>Salario minimo interprofesional</h2>
+	<span>Sueldo</span>
+	<input type="number" min="0" id="salario">
+	<select id="nivel">
+		<option value="1.30">Nivel 1</option>
+		<option value="1.05">Nivel 2</option>
+		<option value="0.93">Otros Niveles</option>
+	</select>
+
+	<button type="button" onclick="calcula();">Joder !LOS TRABAJADORES!</button>
+	<span>Tu sueldo es?????:</span>
+	<output id="resultado">€</output>
+</body>
+</html>

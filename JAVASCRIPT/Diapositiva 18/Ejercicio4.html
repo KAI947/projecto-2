@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+	<style type="text/css">
+		div{
+			height: 50px;
+			width: 250px;
+			border: solid 1px black;
+			border-radius: 30px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		var i=0
+		function di(){
+			var dv = document.createElement('div');
+			var texto = document.createTextNode('Esto no hay por donde cojerlo');
+
+			dv.appendChild(texto);
+			document.body.appendChild(dv);
+
+		}
+		function di2(){
+			if(i!=0){
+
+			var dv = document.createElement('div');
+			var texto = document.createTextNode('Esto no hay por donde cojerlo');
+
+			dv.appendChild(texto);
+
+				document.body.appendChild(di);
+			}
+		}
+	</script>
+	<div onmouseenter="di();">Esto no hay por donde cojerlo</div>
+	<div onmouseenter="di2();">Esto no hay por donde cojerlo</div>
+	<div onmouseenter="di();" onmouseleave="parentNode.removeChild(this);">Esto no hay por donde cojerlo</div>
+</body>
+</html>

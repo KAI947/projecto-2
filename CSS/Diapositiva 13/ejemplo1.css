@@ -1,0 +1,29 @@
+		.menu li, .submenu li{
+			list-style-type: none;
+			padding: 10px;
+			color: red;
+		}
+		.menu{
+			background-color: lightblue;
+			width: 100px;
+		}
+		.menu>li{
+			position: relative;
+		}
+		.menu>li:hover{
+			color: red;
+			background-color: blue;
+		}
+		.menu>li:hover .submenu{
+			max-width: 500px;
+		}
+		.submenu{
+			position: absolute;
+			overflow: hidden;
+			top: 0px;
+			left: 100px;
+			background-color: blue;
+			max-width: 0px;
+			box-shadow: 0px 2px 4px rgba(60,60,60,0.6);
+			transition: 0.5s;
+		}

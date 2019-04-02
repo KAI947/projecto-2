@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3b</title>
+	<style type="text/css">
+		figure{
+			display: inline-block;
+			width: 40%;
+		}
+		img{
+			width: 80%;
+		}
+		.grande{
+			position: fixed;
+			width: 80%;
+			top: 10%;
+			left: 15%;
+		}
+
+	</style>
+	<script>
+		function agrandar(elemento){
+
+			var fotoNueva = document.createElement('figure');
+
+
+			fotoNueva.appendChild(document.createElement('img'));
+
+
+			fotoNueva.firstElementChild.src=elemento;
+
+
+			fotoNueva.setAttribute('class','grande');
+
+			fotoNueva.setAttribute('onclick','this.remove()');
+
+
+			document.body.appendChild(fotoNueva);
+		}
+	</script>
+</head>
+<body>
+	<h1>EPICOS PAISAJES</h1>
+	<figure>
+		<img src="paisaje1.jpg"  title="paisaje1" alt="paisaje1 alternativo" onclick="agrandar(this.src)" />
+	</figure>
+	<figure>
+		<img src="paisaje2.jpg" title="paisaje2" alt="paisaje2 alternativo" onclick="agrandar(this.src)" />
+	</figure>
+
+	
+</body>
+</html>

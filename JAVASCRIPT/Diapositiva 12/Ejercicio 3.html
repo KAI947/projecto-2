@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercico 3</title>
+</head>
+<body>
+	<script>
+		var textos = [];
+
+        function recoger(texto1, text2, texto3, texto4,){
+			textos = [texto1, text2, texto3, texto4,];
+			document.getElementById('recogida').innerHTML = "los textos recogidos son :"+textos;
+		}
+
+		function indiceDe(t){
+			for(let i = 0; i<textos.length; i++){
+				if(t == textos[i]){
+
+				}
+				alert(i + 1);
+				break;
+			}
+		}
+		function ultimoIndiceDe(t){
+                for(let i = textos.length; i>0; i--){
+				if(t == textos[i]){
+
+				}
+				alert(i - 1);
+				break;
+			}
+		}
+		function concatenar(){
+			var  c = [", "];
+			c.push(textos);
+
+			alert(c);
+		}
+		function invertir(){
+			var invertido = [];
+			for(let i = textos.length-1;i>=0;i--){
+				invertido.push(textos[i])
+			}
+
+			alert(invertido);
+		}
+	</script>
+	<h1>INDICEDE, ULTIMO INIDICEDE, CONCATENAR, INVERTIR</h1>
+	<span>indice</span>
+	<input type="text" id="texto1">
+	<span>ultimo indice</span>
+	<input type="text" id="texto2">
+	<span>concatenar</span>
+	<input type="text" id="texto3">
+	<span>invertir</span>
+	<input type="text" id="texto4">
+	<button onclick="recoger(texto1.value, texto2.value, texto3.value, texto4.value);">recoger</button>
+    <h3 id="recogida"></h3>
+    <span>posicion a agregar</span>
+    <input type="text" id="tex">
+	<br>
+	<hr>
+	
+
+	<button onclick="indiceDe(tex.value);">indiceDe</button>
+	<button onclick="ultimoIndiceDe(tex.value);">ultimoIndiceDe</button>
+	<button onclick="concatenar();">concatenar</button>
+	<button onclick="invertir();">invertir</button>
+</body>
+</html>

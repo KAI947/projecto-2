@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+	<script>
+	function area(base,altura){
+		alert(a=base*altura/2);
+
+	}
+	function rectangulo(base1,altura1){
+		alert(a=base1*altura1);
+	}
+	function circuferencia(radio){
+		alert(a=Math.PI*radio*2);
+	}
+	</script>
+</head>
+<body>
+	<h1>a) LA PUTA ILUSA </h1>
+
+	<span>Base:</span>
+	<input type="number" id="base">
+	<span>Altura:</span>
+	<input type="number" id="altura">
+	<button onclick="area(base.value, altura.value);">calcula</button>
+
+	<h1>b) AREA DE UN RECTANGULO</h1>
+
+	<span>Base:</span>
+	<input type="number" id="base1">
+	<span>Altura:</span>
+	<input type="number" id="altura1">
+	<button onclick="rectangulo(base1.value, altura1.value);">calcula</button>
+
+	<h1>c) AREA DE UN CIRCULO</h1>
+	<span>Area:</span>
+	<input type="number" id="radio">
+	<button onclick="circuferencia(radio.value);">calcula</button>
+</body>
+</html>

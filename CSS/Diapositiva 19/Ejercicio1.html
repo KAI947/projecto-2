@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+	<style>
+    body{
+		margin: 200px;
+	}
+
+	img{border: solid 1px black;}
+
+	.libro{
+		position: relative;
+		width: 200px; 
+		height: 280px;
+		transform-style: preserve-3d;
+		transform: rotateY(60deg);
+        transition: 5s;
+	}
+	.libro img{
+		position:absolute;
+		height: 280px; 
+		width: 200px;
+        transform-origin: 0% 50%;
+	}
+     .libro .portada{transform: rotateY(-10deg);}
+	 .libro .hoja:first-of-type{transform: rotateY(5deg);}
+     .libro .hoja:nth-of-type(2){transform: rotateY(10deg);}
+     .libro .hoja:nth-of-type(3){transform: rotateY(15deg);}
+     .libro .hoja:nth-of-type(4){transform: rotateY(20deg);}
+     .libro .hoja:nth-of-type(5){transform: rotateY(25deg);}
+     .libro .hoja:nth-of-type(6){transform: rotateY(30deg);}
+     .libro .hoja:nth-of-type(7){transform: rotateY(35deg);}
+     .libro .hoja:nth-of-type(8){transform: rotateY(40deg);}
+     .libro .hoja:nth-of-type(9){transform: rotateY(45deg);}
+     .libro .hoja:nth-of-type(10){transform: rotateY(50deg);}
+     .libro .hoja:nth-of-type(11){transform: rotateY(55deg);}
+     .libro .hoja:nth-of-type(12){transform: rotateY(60deg);}
+     .libro .hoja:nth-of-type(13){transform: rotateY(65deg);}
+     .libro .hoja:nth-of-type(14){transform: rotateY(70deg);}
+     .libro .hoja:nth-of-type(15){transform: rotateY(75deg);}
+     .libro .hoja:nth-of-type(16){transform: rotateY(80deg);}
+     .libro .hoja:nth-of-type(17){transform: rotateY(85deg);}
+     .libro .hoja:nth-of-type(18){transform: rotateY(90deg);}
+     .libro .contraportada{transform: rotateY(95deg);}
+
+
+     .libro:hover {transform: rotateY(0deg) rotateX(25deg);}
+     .libro:hover .portada{transform: rotateY(-80deg);}
+	</style>
+</head>
+<body>
+	<h1>FAIRY TAIL LA MISION DE LOS 100 AÑOS</h1>
+	<div class="libro">
+		<img class="portada" src="portada.jpg">
+		<img class="hoja" src="hoja1.jpg">
+		<img class="hoja" src="hoja2.jpg">
+		<img class="hoja" src="hoja3.jpg">
+		<img class="hoja" src="hoja4.jpg">
+		<img class="hoja" src="hoja5.jpg">
+		<img class="hoja" src="hoja6.jpg">
+		<img class="hoja" src="hoja7.jpg">
+		<img class="hoja" src="hoja8.jpg">
+		<img class="hoja" src="hoja9.jpg">
+		<img class="hoja" src="hoja10.jpg">
+		<img class="hoja" src="hoja11.jpg">
+		<img class="hoja" src="hoja12.jpg">
+		<img class="hoja" src="hoja13.jpg">
+		<img class="hoja" src="hoja14.jpg">
+		<img class="hoja" src="hoja15.jpg">
+		<img class="hoja" src="hoja16.jpg">
+		<img class="hoja" src="hoja17.jpg">
+		<img class="hoja" src="hoja18.jpg">
+		<img class="contraportada" src="contraportada.jpg">
+	</div>
+</body>
+</html>

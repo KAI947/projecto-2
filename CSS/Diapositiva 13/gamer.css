@@ -1,0 +1,188 @@
+ header, nav, main, footer, body, section{
+            text-align: center;
+            margin: 5px;
+        }
+        header{
+            display: flex;
+            text-align: center;
+            font-size: 2vw;
+            width: 100%;
+            border-radius: 30px;
+            background: url(iframe);
+
+        }
+        nav{
+            text-align: center;
+            display: flex;
+            width: 100%;
+            border-radius: 30px;
+            color: green;
+            background: url(t.gif);
+            position: sticky;
+            top: 0px;
+
+
+        }
+        footer{
+            padding-top: 45px;
+            padding-right: 10px;
+            text-align: right;
+            border-radius: 30px; 
+            color: white;
+        }
+        img{
+            width: 40%;
+            height: 50%;
+            vertical-align: middle;
+            border-radius: 30px;
+        }
+        li{
+            padding: 5px 20px 5px 20px;
+            margin: auto;
+            display: inline-flex;
+            
+
+        }
+        main>section{
+            display: flex;
+            color: #fff;
+        }
+
+        main>section>figure{
+            flex:2;
+        }
+        figure>img{
+            width: 100%;
+        }
+        main>section>p{
+            flex:6;
+        }
+        main>section>div{
+            flex:3;
+            position: relative;
+        }
+
+        tr{
+            height: 30px;
+        }
+        main{
+            width: 100%;
+            border-radius: 30px;
+        }
+        div{
+            display:flex;
+            margin: auto;
+            flex: 1;
+            display: inline-block;
+        }
+        h1{
+            flex: 8;
+            color: white;
+        }
+        h3{
+            font-size: 1vw;
+        }
+        h2{
+            color: white;
+            font-size: 1vw;
+        }
+        p{
+            text-align: center;
+            width: 90%;
+            font-size: 1vw;
+            font-family: comic sans ms 
+            color: white;
+        }
+        article{
+            width: 40%;
+            display:flex;
+            margin: auto;
+            flex-wrap: wrap;
+            flex: 1;
+            align-items: center;
+        }
+        nav>div{
+            width: 40%;
+            display: flex;
+        }
+        article+article{
+            flex: 1;
+        }
+        body{
+            width: 80%;
+            margin: auto;
+            background: url(t.gif);
+            cursor: url(iconfinder_Fairy_Tail_197416.png), pointer;
+
+            }
+        #login{
+            position: fixed;
+            width: 250px;
+            top: 10px; right: -240px;
+            padding: 10px;
+            background-color: rgba(255,255,255,0.85);
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 2px 2px 4px rgba(60,60,60,0.6);
+            transition: 1s;
+        }
+        #login:target{
+            right: 20px;
+        }
+        iframe{
+            border-radius: 30px;
+            color: black;
+        } 
+        div>input{
+            position: absolute;
+            bottom: 0;
+        } 
+        section>div{
+            height: 250px;
+            width: 20%;
+        } 
+        section{
+            color: white;
+            vertical-align: middle;
+            text-align: center;
+            display: block;
+        }
+        .menu li, .submenu li{
+            list-style-type: none;
+            padding: 10px;
+            color: green;
+        }
+        .menu{
+            background-color: black;
+        }
+        .menu>li{
+            position: relative;
+            display: inline-block;
+        }
+        .menu>li:hover{
+            color: red;
+            background-color: white;
+        }
+        .menu>li:hover .submenu{
+            display: initial;
+        }
+        .submenu{
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            background-color: black;
+            max-width: 100px;
+            box-shadow: 0px 2px 4px rgba(60,60,60,0.6);
+        }
+        figure{
+            border: solid 2px darkblue;
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            
+        }
+        figure img{
+            height: 100px;
+            width: 100px;
+        }

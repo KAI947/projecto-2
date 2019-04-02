@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prueba</title>
+	<style type="text/css">
+		figure>img{
+			width: 150px;
+			height: 150px;
+			position: absolute;
+		}
+		figure{
+			position: relative;
+		}
+		figure img:first-of-type{
+			top: 20px; left: 10px; z-index: 4;
+		}
+		figure img:nth-of-type{
+			top: 40px; left: 60px; z-index: 3;
+		}
+		figure img:nth-of-type{
+			top: 60px; left: 120px; z-index: 2;
+		}
+		figure img:last-of-type{
+			top: 80px; left: 180px; z-index: 1;
+		}
+		img:hover{
+			z-index: 5;
+		}
+	</style>
+</head>
+<body>
+	<figure>
+	<img src="rey mono 1.jpg">
+	<img src="rey mono 2.jpg">
+	<img src="rey mono 3.png">
+	<img src="rey mono 4.jpg">
+    </figure>
+</body>
+</html>

@@ -1,0 +1,13 @@
+/*primer elemento hijo de cada padre*/
+:first-child{
+	text-decoration: underline;
+}
+/*h2 que sean el unico hijo*/
+h2:only-child{
+	text-decoration: line-through;
+}
+/*parrafos que sean segundo hijo*/
+p:nth-child(2){
+	text-transform:uppercase;
+}
+/*parrafos que sean penultimo hijo*/

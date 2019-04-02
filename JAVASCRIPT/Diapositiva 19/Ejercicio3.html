@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<style>
+		figure{
+			display: inline-block;
+		}
+		h1{
+			text-align: center;
+			text-shadow: 5px 5px 5px red;
+		}
+		figure img{
+			box-shadow: 6px 6px 6px red;
+		}
+
+		#galeria{
+			display: flex;
+			flex-wrap: wrap;
+			margin: auto;
+			width: 50%;
+		}
+
+		#galeria figure{
+			flex: 1;
+			margin: 20px;
+			min-width: 100px;
+		}
+
+		#galeria figure img{
+			width: 100%;
+			height: 100%;
+		}
+
+		#grande{
+			position: fixed;
+			text-align: center;
+			width: 80%;
+			height: 80%;
+			top:0px;
+			left: 0px;
+			background-color: rgba(60,60,60,0.6);
+		}
+
+		#grande figcaption{
+			font-size: 2em;
+			color: white;
+		}
+
+		#grande img{
+			height: 80%;
+			margin: 50px auto 50px auto;
+		}
+
+	</style>
+</head>
+<body>
+<script>
+      window.onload = function(){
+	  var figuras = document.getElementById('galeria').getElementsByTagName('figure');
+
+
+	  for(var i=0; i<figuras.length; i++){
+	  figuras[i].onclick = function(){
+	  mostrar(this);
+		}
+	}
+}
+
+    function mostrar(figura){
+
+		var figuraGrande = document.createElement('figure');
+	    figuraGrande.setAttribute('id','grande');
+
+
+		figuraGrande.onclick = function(){this.remove();}
+
+
+		var imagen = document.createElement('img');
+		imagen.setAttribute('src', figura.firstElementChild.src);
+						
+
+		figuraGrande.appendChild(imagen);
+
+		var nombre = document.createElement('figcaption');
+		var name = figura.firstElementChild.dataset.name;
+
+		nombre.innerHTML=name.toUpperCase();
+		figuraGrande.appendChild(nombre);
+
+		document.body.appendChild(figuraGrande);				
+	}
+
+	</script>
+	<h1>EPICOS PAISAJES</h1>
+
+	<section id="galeria">
+	<figure>
+		<img src="paisaje1.jpg" data-name="praderas">
+	</figure>
+	<figure>
+		<img src="paisaje2.jpg" data-name="estacion espacial">
+	</figure>
+	<figure>
+		<img src="paisaje3.jpg" data-name="campo de arroz">
+	</figure>
+	<figure>
+		<img src="paisaje4.png" data-name="noche de estrellas">
+	</figure>
+	<figure>
+		<img src="paisaje5.jpg" data-name="lluvia de estrellas">
+	</figure>
+	<figure>
+		<img src="paisaje6.jpg" data-name="exploracion a un pueblo o reino">
+	</figure>
+	<figure>
+		<img src="dragon.jpg" data-name="dragon oriental">
+	</figure>
+	<figure>
+		<img src="dragon2.jpg" data-name="dragon de oro">
+	</figure>
+	<figure>
+		<img src="dragon3.jpg" data-name="dragon paseando">
+	</figure>
+	<figure>
+		<img src="dragon4.jpg" data-name="dragon bebiendo">
+	</figure>
+	<figure>
+		<img src="dragon5.jpg" data-name="dragon estilo vegeta">
+	</figure>
+	<figure>
+		<img src="dragon6.jpg" data-name="dragon malvado">
+	</figure>
+</section>
+<h1>DRAGONES</h1>
+</body>
+</html>
+</body>
+</html>

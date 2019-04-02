@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+	<script>
+		function expo(){
+			var base = parseInt(document.getElementById('base').value);
+			var exponente = parseInt(document.getElementById('exponente').value);
+			var resultado = 1;
+
+			for(let i=1;i<=exponente;i++){
+				resultado *= base;
+			}
+			alert(resultado);
+		}
+		
+	</script>
+</head>
+<body>
+	<h1>Numeros Exponeciales</h1>
+	<span>Base:</span>
+	<input type="number" id="base"><br>
+
+	<span>Exponente:</span>
+	<input type="number" id="exponente"><br>
+
+	<button onclick="expo();">calcular</button>
+</body>
+</html>

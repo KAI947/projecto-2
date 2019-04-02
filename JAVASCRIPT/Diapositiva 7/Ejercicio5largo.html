@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 5 largo</title>
+	<script>
+		var pintar = false;
+		function colorear(elemento,color){
+			elemento.style.backgroundColor=color;
+		}
+	</script>
+	<style>
+		body{
+			text-align: center;
+			padding: 100px;
+		}
+		h1{
+			text-align: center;
+			color: #000;
+			text-shadow: 3px 3px 3px #00f;
+		}
+		p{
+			text-align: center;
+			color: #00f;
+			text-shadow: 3px 3px 3px #000;
+		}
+		#fondo{
+			width: 595px;
+			height: 495px;
+			border: solid 2px;
+			overflow: hidden;
+		}
+		div.pixel{
+			width: 5px;
+			height: 5px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<h1>QUE CUTRADAD DE PAINT</h1>
+	<P>Destrozate la cabeza</P>
+	  <span>color</span><br>
+	  <input type="color" id="color" /><br>
+	  <div id="fondo" onclick="pintar = !pintar">
+	  	<script>
+	  		for(var i=0; i<=10000; i++){
+	  			document.write('<div class="pixel" onmouseover="if(pintar) colorear(this, color.value);"></div>');
+	  		}
+	  	</script>
+	  	
+	  </div>
+</body>
+</html>

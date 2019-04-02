@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">	
+	<title>Ejercicio 2</title>
+	<script>
+		function calcular(){
+		var n1 = parseFloat(document.getElementById('n1').value);
+		var n2 = parseFloat(document.getElementById('n2').value);
+
+		if(n1>n2){
+		for(;n1>n2;n2++){
+			document.getElementById('resultado').innerHTML += n2+', ';
+		}
+	  }
+	}
+	</script>
+</head>
+<body>
+	<h1>ascendente</h1>
+	<span>Numero 1</span>
+	<input type="number" id="n1" /><br>
+
+	<span>Numero 2</span>
+	<input type="number" id="n2" /><br>
+
+	<input type="button" onclick="calcular();" value="calcular"/>
+	<hr>
+	<output id="resultado"></output>
+
+</body>
+</html>

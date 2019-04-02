@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<script>
+		function reloj(){
+			var l = new Date();
+			var h = l.getHours();
+			var m = l.getMinutes();
+			var s = l.getSeconds();
+			//añadir un cero delante de los numeros<10
+			m = checkTime(m);
+			s = checkTime(s);
+			document.getElementById('hora').innerHTML = h + " : " + m + " : " + s;
+			var t = setTimeout(function(){ reloj() }, 500);
+		}
+		function checkTime(i){
+			if (i < 10){
+				i = "0" + i;
+			}
+			return i;
+		}
+	</script>
+	<h1>hora actualizada segundo a segundo</h1>
+	<span>hora :</span>
+	<span id="hora"></span>
+	<button onclick="reloj();">hora actualizada</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+		<script>
+		function escalar(imagen){
+			imagen.height*=2;
+			imagen.width*=2;
+		}
+	   </script>
+</head>
+<body>
+<img src="boom.gif" onclick="escalar(this, 0.5);" height="50" width="50" id="foto">
+<img src="boom.gif" onclick="escalar(this, 1.5);" height="100" width="100" id="foto">
+<img src="red.gif" onclick="escalar(this, 0.1);" height="150" width="150" id="foto">
+<img src="red.gif" onclick="escalar(this, 1.0);" height="200" width="200" id="foto">
+</body>
+</html>

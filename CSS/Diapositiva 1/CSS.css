@@ -1,0 +1,33 @@
+h1,h2{
+	color:#FF0000;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	margin-bottom: 10px;
+}
+html{
+	background-color: blue;
+}
+body{
+	font-family: arial black;
+	margin: 20px auto 20px auto;
+	padding: 20px;
+	width: 80%;
+	background-color: yellow;
+	border-radius: 30px;
+	box-shadow: 2px 2px 2px black;
+	text-decoration: underline;
+	text-align: center;
+}
+figure{
+	padding: 10px;
+	background-color: grey;
+	width: 100px;
+	height: 100px;
+}
+figure img{
+	width: 100%;

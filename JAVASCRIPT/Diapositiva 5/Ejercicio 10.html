@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 10</title>
+	<script>
+		var aleatorio = Math.floor((Math.random()*128)+1)
+		var contadorRespuesta = 0;
+
+		function random(){
+
+			var numero = parseInt(document.getElementById('num1').value);
+
+
+			if(aleatorio==numero){
+				document.getElementById('resultado').innerHTML=++contadorRespuesta;
+				document.getElementById('intentos').innerHTML= "Acertaste";
+			}else if(aleatorio>numero){
+				document.getElementById('resultado').innerHTML=++contadorRespuesta;
+				document.getElementById('intentos').innerHTML= "Mayor";
+			}else if(aleatorio<numero){
+				document.getElementById('resultado').innerHTML=++contadorRespuesta;
+				document.getElementById('intentos').innerHTML= "Menor";
+		     if(contadorRespuesta>7){
+		     	alert('Te voy a crujir viiiivooooo si a ti');
+		     }else{
+
+		     }
+		    }
+
+		}
+		function reset(){
+		   aleatorio = Math.floor((Math.random()*128)+1);
+		   contadorRespuesta = 0;
+		   var numero = parseInt(document.getElementById('num1').value);
+		   document.getElementById('resultado').value="";
+ 	
+		}
+	</script>
+</head>
+<body>
+	<h1>ADIVINA EL PUÑETERO NUMERO</h1>
+	<span>Numero:</span>
+	<input type="number" id="num1">
+	<button onclick="reset();">reinicia</button>
+	<button onclick="random();">ok</button>
+	<hr>
+
+	<span>Resultado:</span>
+	<output id="intentos"></output><br />
+	<span>Intentos:</span>
+	<output id="resultado"></output>
+</body>
+</html>

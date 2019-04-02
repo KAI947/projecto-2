@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 5</title>
+	<script>
+		function esPrimo(primo){
+			var resultado="";
+
+			for(let i=1;i<primo;i++){
+				if(primo/i==1){
+					resultado+=i+', ';
+				}
+			}
+			alert(resultado);
+		}
+	</script>
+</head>
+<body>
+	<h1>Numeros primos</h1>
+	<span>Primos:</span>
+	<input type="number" id="primo">
+	<button onclick="esPrimo(primo.value);">calcula</button>
+</body>
+</html>

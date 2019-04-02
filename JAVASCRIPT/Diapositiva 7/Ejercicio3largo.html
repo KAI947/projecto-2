@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<script>
+		function colorear(elemento,incolor){
+			elemento.style.backgroundColor=incolor;
+		}
+	</script>
+	<style>
+		div{
+			height: 300px;
+			width: 300px;
+			border: solid 1px #000;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<h1>colorea</h1>
+	<div onclick="colorear(this, incolor.value);"></div>
+	<div onclick="colorear(this, incolor.value);"></div>
+	<div onclick="colorear(this, incolor.value);"></div>
+	<div onclick="colorear(this, incolor.value);"></div>
+	<div onclick="colorear(this, incolor.value);"></div>
+	<input type="color" id="incolor">
+	<button onclick="colorear(document.body, incolor.value);">colorea</button>
+</body>
+</html>

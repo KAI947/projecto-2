@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio</title>
+	<style>
+		div.cubo{
+			position: relative;
+			transform-style: preserve-3d;
+			margin: 50px;
+			width: 200px;
+			height: 200px;
+			transform: rotateX(40deg) rotateY(40deg);
+		}
+		div.cara{
+			position: absolute;
+			height: 200px;
+			width: 200px;
+			outline: solid 1px black;
+			transition:5s;
+		}
+		div.cubo:target .cara.front{
+			background-image: url(minato.gif);
+			transform: translateZ(-100px);
+		}
+		div.cubo:target .cara.back{
+			background-image: url(sasuke.gif);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			transform: rotateY(180deg) translateZ(-100px);
+		}
+		div.cubo:target .cara.left{
+			background-image: url(saitama.gif);
+			transform: rotateY(90deg) translateZ(-100px);
+		}
+		div.cubo:target .cara.right{
+			background-image: url(nicomaki.gif);
+			transform: rotateY(-90deg) translateZ(-100px);
+		}
+		div.cubo:target .cara.top{
+			background-image: url(flash.gif);
+			transform: rotateX(-90deg) translateZ(-100px);
+		}
+		div.cubo:target .cara.bottom{
+			background-image: url(ultra.gif);
+			transform: rotateX(90deg) translateZ(-100px);
+		}
+	</style>
+</head>
+<body>
+	<h1>MI SUPUESTO CUBO 3D</h1><br>
+
+	<div class="cubo" id="montar">
+		<div class="cara front"></div>
+		<div class="cara back"></div>
+		<div class="cara left"></div>
+		<div class="cara right"></div>
+		<div class="cara top"></div>
+		<div class="cara bottom"></div>
+	</div><br>
+	<button type="button" onclick="location.href='#montar';">Montar</button>
+	<button type="button" onclick="location.href='#';">desmontar</button>
+</body>
+</html>

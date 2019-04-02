@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio</title>
+	<style>
+		#campo{
+			height: 400px; width: 400px;
+			position: relative;
+			border: solid 1px black;
+			background-image: url(liga.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		#pelota{
+			height: 100px; width: 100px;
+			position: absolute;
+			animation-name: botar, rotar;
+			animation-duration: 1s,2s;
+			animation-timing-function: cubic-bezier(.67,.06,.94,.74), linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate, normal;
+		}
+		@keyframes botar{
+			from{top: 0px;}
+			to{top: 300px;}
+		}
+		@keyframes rotar{
+			from{transform: rotateZ(0deg);}
+			to{transform: rotateZ(360deg);}
+		}
+	</style>
+</head>
+<body>
+	<h1>Y NO PARA DE BOTAR Y RODAR LA PELOTA</h1>
+	<div id="campo" id="pelota" >
+		<img id="pelota" src="nike.png">
+	</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<h1>POSITIVOS, NEGATIVOS, PARES, IMPARES</h1>
+	<script>
+		var numeros = [];
+
+		function recoger(num1, num2, num3, num4, num5){
+			numeros = [num1, num2, num3, num4, num5];
+			document.getElementById('recogida').innerHTML = "los numeros recogidos son :"+numeros;
+		}
+		function positivos(){
+			var posi = 0;
+			for(let i = 0; i < numeros.length; i++){
+				if(numeros[i] > 0){
+					posi++;
+				}
+			
+			}
+			alert(posi);
+		}
+		function negativos(){
+			var nega = 0;
+			for(let i = 0; i < numeros.length; i++){
+				if(numeros[i] < 0){
+					nega++;
+				}
+			
+			}
+			alert(nega);
+		}
+		function pares(){
+			var par = 0;
+			for(let i = 0; i < numeros.length; i++){
+				if(numeros[i] %2 == 0){
+					par++;
+				}
+			
+			}
+			alert(par);
+		}
+		function impares(){
+			var imp = 0;
+			for(let i = 0; i < numeros.length; i++){
+				if(numeros[i] %2 == 1){
+					imp++;
+				}
+			
+			}
+			alert(imp);
+		}
+	</script>
+	<span>numero</span>
+	<input type="number" id="numero1">
+	<span>numero</span>
+	<input type="number" id="numero2">
+	<span>numero</span>
+	<input type="number" id="numero3">
+	<span>numero</span>
+	<input type="number" id="numero4">
+	<span>numero</span>
+	<input type="number" id="numero5">
+	<button onclick="recoger(parseInt(numero1.value), parseInt(numero2.value), parseInt(numero3.value), parseInt(numero4.value), parseInt(numero5.value));">recoger</button>
+	<h3 id="recogida"></h3>
+	<br>
+	<hr>
+	
+	<button onclick="positivos();">positivos</button>
+	<button onclick="negativos();">negativos</button>
+	<button onclick="pares();">pares</button>
+	<button onclick="impares();">impares</button>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>ejercicio 6A</title>
+	<script>
+		function ingreso(){
+			var n1 = parseFloat(document.getElementById('num1').value);
+			var n2 = parseFloat(document.getElementById('num2').value);
+			var n3 = parseFloat(document.getElementById('num3').value);
+
+			if(n1>n2){
+				document.getElementById('resultado').innerHTML=n1;
+			}
+			else if(n1>n3){
+				document.getElementById('resultado').innerHTML=n2;
+			}
+			else if(n2>n1){
+				document.getElementById('resultado').innerHTML=n3;
+			}
+			else if(n2>n3){
+				document.getElementById('resultado').innerHTML=n1;
+			}
+			else if(n3>n1){
+				document.getElementById('resultado').innerHTML=n2;
+			}
+			else if(n3>n2){
+				document.getElementById('resultado').innerHTML=n3;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2>Programa que mos diga en pantalla cual es mas grande de todos</h2>
+	<span>Numero 1</span>
+	<input type="number" id="num1">
+	<span>Numero 2</span>
+	<input type="number" id="num2">
+	<span>Numero 3</span>
+	<input type="number" id="num3">
+	<button onclick="ingreso();">calcula</button>
+	<output id="resultado"></output>
+</body>
+</html>

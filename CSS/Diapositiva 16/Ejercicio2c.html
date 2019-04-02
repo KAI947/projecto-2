@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>OBRAS</title>
+	<style type="text/css">
+		body, header, nav, main, footer{
+		}
+		*{
+			margin: 19px;
+			padding: 10px;
+
+		}
+		body{
+			padding: 20px;
+			background-image: url(yinyang.gif);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		header{
+			grid-area: cabecera;
+		}
+		h1{
+			text-align: center;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: inline-block;
+			color: black;
+			text-align: center;
+			padding: 14px 170px;
+			text-decoration: none;
+			font-size: 1vw;
+		}
+		nav{
+			grid-area: navegacion;
+		}
+		main{
+			grid-area: contenido;
+		}
+		img{
+			display: inline-block;
+			filter: opacity(100%);
+			transition: filter 0.4s;
+			cursor: zoom-in;
+		}
+		 img:hover{
+			filter: opacity(0%);
+		}
+		footer{
+			grid-area: footer;
+			text-align: right;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera cabecera login'
+			'navegacion navegacion navegacion navegacion'
+			'aside1 contenido contenido contenido'
+			'aside2 contenido contenido contenido'
+			'aside3 contenido contenido contenido'
+			'footer footer footer footer';
+			grid-gap: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>GALERIA DE IMAGENES 3</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Ejercicio2.html">PAISAJES</a></li>
+			<li><a href="Ejercicio%202B.html">RETRATOS</a></li>
+			<li><a href="Ejercicio2c.html">OBRAS</a></li>
+		</ul>
+	</nav>
+	<main>
+		<img src="obra1.jpg">
+		<img src="obra2.jpg">
+		<img src="obra3.jpg">
+		<img src="obra4.jpg">
+		<img src="obra5.jpg">
+		<img src="obra6.jpg">
+		<img src="obra7.jpg">
+		<img src="obra8.jpg">
+		<img src="obra9.jpg">
+	</main>
+	<footer>
+		<h1>BY: MANUEL CANDELA (KAI 94)</h1>
+	</footer>
+</body>
+</html>

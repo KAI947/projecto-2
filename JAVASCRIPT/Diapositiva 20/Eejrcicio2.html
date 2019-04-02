@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<button onclick="empezar(this);">BOTONCITO</button>
+	<script>
+		function empezar(boton){
+			var imagen = document.createElement('img');
+			var contenedor = document.createElement('div');
+            var texto = document.createElement('p');
+
+			boton.setAttribute('disabled','disabled');
+			imagen.src ="saitama.png";
+			imagen.alt ="saitama";
+			imagen.title = "saitama";
+			document.body.appendChild(imagen);
+
+			setTimeout(function(){
+				imagen.remove();
+				contenedor.style.backgroundColor = '#F00';
+				contenedor.style.width ='200px';
+				contenedor.style.height ='200px';
+				document.body.appendChild(contenedor);
+			}, 2000);
+
+			setTimeout(function(){
+				contenedor.remove();
+				texto.innerHTML = 'HOLA';
+				document.body.appendChild(texto);
+			}, 4000);
+
+			setTimeout(function(){
+				texto.remove();
+				boton.removeAttribute('disabled');
+			}, 5000);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+	<style>
+		.grande{font-size: 2em;}
+		.oro{color: gold;}
+		.cursiva{font-style: vaille;}
+		#visor{height: 200px; width: 200px; overflow: scroll;}
+		div{height: 100px; width: 300px; margin: 10px;}
+		#d1{background-color: red;}
+		#d2{background-color: blue;}
+		#d3{background-color: yellow;}
+	</style>
+</head>
+<body>
+	<h1>Probando Metodos</h1>
+	<hr>
+	<script>
+		function desaparece(){
+			document.body.children[0].remove();
+		}
+		function vuelve(){
+			var h = document.createElement('h1');
+			var texto = document.createTextNode('esto es un TITULO COMO DIOS MANDA');
+			var atributo = document.createAttribute('class');
+			atributo.value="importante";
+			var c = document.createComment('esto es un comentario HTML');
+			h.setAttributeNode(atributo);
+			h.appendChild(texto);
+			document.body.appendChild(h);
+			document.body.appendChild(c);
+		}
+
+		function aplicar(elemento,clase){
+			elemento.classList.add(clase);
+		}
+		function eliminar(elemento,clase){
+			elemento.classList.remove(clase);
+		}
+		function actualizar(){
+			info.innerHTML=visor.scrollTop+'-'+visor.scrollLeft;
+		}
+		function centrar(){
+			visor.scrollTop=100;
+			visor.scrollLeft=100;
+		}
+		function clonar(figura){
+			var clonf = figura.cloneNode();
+			var cloni = figura.children[0].cloneNode();
+
+			clonf.setAttribute('class','grande');
+			clonf.onclick = function(){this.remove();}
+			clonf.appendChild(cloni);
+
+			document.body.appendChild(clonf);
+		}
+		function subir(el){
+			if(el!=el.parentElement.children[0]){
+				el.parentElement.insertBefore(el, el.previousElementSibling);
+			}el.parentElement.appendChild(el);
+		}
+		function impresion(){
+			var image = document.createElement('img');
+			var result='';
+
+			for(let imag in image){
+				result+=imag+':'+image[imag]+'<br>';
+			}
+
+			document.getElementById('resultado').innerHTML=result;
+		}
+	</script>
+	<p>probando</p>
+	<p>probando</p>
+	<p>probando</p>
+	<p>probando</p>
+	<p>probando</p>
+	<p>probando</p>
+	<p>probando</p>
+	<button onclick="desaparece();">Elimina</button>
+	<button onclick="vuelve();">Reaparece</button>
+	<hr>
+	<div id="d">
+		<p>Monkey.D.Luffy</p>
+		<p>Monkey.D.Garp</p>
+		<p>Monkey.D.Dragon</p>
+	</div>
+	<hr>
+	<p id="par">MI CAMINO MI AVENTURA EL QUE ESCOGE SOY YO Y NADIE MAS</p>
+
+	<select id="sel">
+		<option value="grande">GRANDE</option>
+		<option value="oro">ORO</option>
+		<option value="cursiva">CURSIVA</option>
+	</select>
+	<button onclick="aplicar(par, sel.value);">Aplicar</button>
+	<button onclick="eliminar(par, sel.value);">Eliminar</button>
+	<hr>
+	<figure id="visor" onscroll="actualizar();">
+		<img src="liga.jpg" height="400" width="400">
+	</figure>
+	<p id="info"></p>
+	<button onclick="centrar();">Centrar</button>
+	<hr>
+	<figure onclick="clonar(this);">
+		<img src="flash.png">
+	</figure>
+	<hr>
+	<div id="parrafos">
+		<p onclick="this.parentNode.removeChild(this);">HOLA</p>
+		<p onclick="this.parentNode.removeChild(this);">SI ME HACES CLICK</p>
+		<p onclick="this.parentNode.removeChild(this);">ME CAGO EN TU PUTA MADRE</p>
+	</div>
+	<hr>
+
+	<div id="d1" onclick="subir(this);"></div>
+	<div id="d2" onclick="subir(this);"></div>
+	<div id="d3" onclick="subir(this);"></div>
+	<hr>
+	<h3 id="resultado">result</h3>
+	<button onclick="impresion();">formulario</button>
+</body>
+</html>

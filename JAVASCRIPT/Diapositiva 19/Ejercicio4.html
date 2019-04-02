@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejercicio 4</title>
+		<style>
+			div{
+				display: inline-block;
+				border: solid 1px blue;
+				border-radius: 60px;
+				box-shadow: 4px 4px 4px blue;
+				margin: auto 15px auto;
+				text-align: center;
+				background-color: white;
+			}
+			h1{
+				text-shadow: 4px 4px 4px blue;
+				color: white;
+			}
+			body{
+				background-image: url("dado.gif");
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+		</style>
+		<script>
+			var juega= 0;
+			var monedas = 100;
+			var turnos = 0;
+			var aciertos = 0;
+			var errores = 0;
+			var record = 0;
+
+			function tirada(apu){
+				turnos++;
+				var aleatorio = Math.floor((Math.random()*6)+1);
+				dado.src='cara'+aleatorio+'.png';
+				var aleatorio2 = Math.floor((Math.random()*6)+1);
+				dado2.src='cara'+aleatorio2+'.png';
+				var suma= aleatorio+aleatorio2;
+				resultado.innerHTML = 'SALIO UN :'+suma;
+				if(suma==7){
+					alert('habeis empatado');
+				}else{
+
+					if(mas.checked){
+					if(suma>7){
+					document.getElementById('resultado').innerHTML ="Salio un"+suma+"<br>"+"TU GANAS ESTU DIA DE SUERTE"+"<br>"+"YOU WIN";
+					aciertos++;
+					monedas=apu+monedas;
+
+					}else{
+					document.getElementById('resultado').innerHTML ="Salio un"+suma+"<br>"+"TU PIERDES PARA QUE APUESTAS"+"<br>"+"YOU LOSE";
+					errores++;
+					monedas=monedas-apu;
+				    }
+				    }else{ 
+					if(suma<7){
+					document.getElementById('resultado').innerHTML ="Salio un"+suma+"<br>"+"SI FUERA DINERO DE VERDAD"+"<br>"+"YOU WIN";
+					aciertos++;
+					monedas=apu+monedas;
+
+				    }else{
+					document.getElementById('resultado').innerHTML ="Salio un"+suma+"<br>"+"ME CAGO EN TU..."+"<br>"+"YOU LOSE";
+					errores++;
+					monedas=monedas-apu;
+
+				      }
+				    }
+				 }
+
+				document.getElementById('monedas').innerHTML =monedas;
+			    document.getElementById('turnos').innerHTML =turnos;
+			    document.getElementById('aciertos').innerHTML =aciertos;
+			    document.getElementById('errores').innerHTML =errores;
+			    document.getElementById('record').innerHTML =record;
+
+			}
+
+			
+		
+
+		</script>
+	</head>
+	<body>
+		<h1>el dado magico no lo siguiente...</h1>
+		<div>
+			<h3>Estadisticas</h3>
+			<span>Monedas:</span><span id="monedas">100</span><br>
+			<span>Turnos:</span><span id="turnos">0</span><br>
+			<span>Aciertos:</span><span id="aciertos">0</span><br>
+			<span>Errores:</span><span id="errores">0</span><br>
+			<span>RECORD:</span><span id="record">0</span><br>
+			<h3>Jugadas</h3>
+			<span>Juegas</span><select id="apuesta">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+			</select><br>
+			<input type="radio" name="juega" id="menos">Menor a 7
+			<input type="radio" name="juega" id="mas">Mayor a 7<br>
+			<button onclick="tirada(parseInt(apuesta.value));">TU TIRA QUE PUEDES ACABAR BIEN O MAL</button>
+		</div>
+		<div>
+		<img id="dado" src="">
+		<img id="dado2" src="">
+		<br />
+		<output id="resultado"></output>
+        </div>
+	</body>
+</html>

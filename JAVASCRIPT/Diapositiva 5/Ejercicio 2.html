@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+	<script>
+		function calcular(){
+			var base = parseFloat(document.getElementById('base').value);
+			var altura = parseFloat(document.getElementById('altura').value);
+
+			if(base>0 && altura>0){
+				area = base*altura;
+				perimetro = 2*(base+altura);
+				alert(area);
+				alert(perimetro);
+			}else{
+				alert('datos icorrectos');
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2>La hipotenusa (la puta ilusa)</h2>
+	<span>Area</span>
+	<input type="number" id="base"><br>
+	<span>Perimetro</span>
+	<input type="number" id="altura">
+
+	<button onclick="calcular();">calcula</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejemplo 1</title>
+	<script>
+		function calcular(){
+			//leer el precio e IVA introducidos por el usuario
+			var precio = parseFloat(document.getElementById('precio').value);
+			var iva = parseFloat(document.getElementById('iva').value);
+
+			//realzar los calculos
+		     precio*=iva;
+
+			//mostrar el resultado
+			document.getElementById('resultado').innerHTML = precio.toFixed(2);
+		}
+	</script>
+</head>
+<body>
+	<span>Precio</span><input type="number" min="0" id="precio"/><br/>
+
+	<span>IVA:</span>
+	<select id="iva">
+		<option value="1.12">Normal (21%)</option>
+		<option value="1.1">Reducido (10%)</option>
+		<option value="1.04">Super reducido (4%)</option>
+	</select>
+
+	<button type="button" onclick="calcular();">Calcular</button><br/>
+	<span>El precio final es:</span><output id="resultado"></output>
+</body>
+</html>

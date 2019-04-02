@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 5</title>
+	<script>
+		function euros(){
+			var e=parseFloat(document.getElementById('euros').value);
+
+			var result= e/166;
+
+			document.getElementById('resultado').innerHTML= result;
+		}
+		function pesetas(){
+			var p=parseFloat(document.getElementById('euros').value);
+
+			var result= p*166;
+
+			document.getElementById('resultado').innerHTML= result;
+		}
+	</script>
+</head>
+<body>
+	<h1>Euros a Pesetas</h1>
+	<h2>moneda vieja a moneda nueva y viceversa</h2>
+
+	<span>Euros a Pesetas/ Pesetas a Euros</span><br>
+	<input type="number" id="euros">
+
+	<button onclick="euros();">Euros</button>
+	<button onclick="pesetas();">Pesetas</button><br>
+
+	<span>convierte a</span>
+	<output id="resultado"></output>
+</body>
+</html>

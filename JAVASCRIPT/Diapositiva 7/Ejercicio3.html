@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<script>
+		function descuento(porciento,precio){
+			
+		
+		if(precio<0 || porciento<0 || porciento>100){
+			alert('NaN');
+		}else{
+			alert(precio-(porciento/100*precio));
+		}
+	}
+	</script>
+</head>
+<body>
+	<h1>DESCUENTOS</h1>
+
+	<span>Descuento:</span>
+	<input type="number" id="precio">
+	<input type="number" id="porciento">
+	<button onclick="descuento(porciento.value, precio.value);">calcula</button>
+</body>
+</html>

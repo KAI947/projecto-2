@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario 1</title>
+	<style type="text/css">
+		label{
+			width: 90px;
+			display: inline-block;
+		}
+		form{
+			width: 21%;
+		}
+	</style>
+</head>
+<body>
+	<form method="get">
+		<h1>User Input Form</h1>
+		<fieldset>
+			<legend>Personal Particular</legend>
+			<label>Name</label>
+			<input type="text" name="usuario"></br>
+			<br/>
+			<label>Password</label>
+			<input type="Password" name="pwd"></br>
+			<br/>
+			<label>Gender</label>
+			<input type="radio" name="sexo" value="M"/>
+			<label>Male</label>
+			<input type="radio" name="sexo" value="F"/>
+			<label>Female</label>
+			<br/>
+			<br><label>Age</label>
+			<select name="Age">
+				<option selected="selected" value="1 year old">1  year old</option>
+				<option value="2 year old">2  year old</option>
+				<option value="3 year old">3  year old</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Lenguages</legend>
+			<input type="checkbox" name="Java" value="J">
+			<label>Java</label>
+			<input type="checkbox" name="CC++" value="C">
+			<label>CC++</label>
+			<input type="checkbox" name="C#" value="C">
+			<label>C#</label>
+		</fieldset>
+		<fieldset>
+			<legend>Information</legend>
+			<textarea rows="10" cols="50">ENTER YOUR INSTRUCTIONS HERE</textarea>
+			<input type="submit" name="Enviar">
+			<input type="reset" name="Borrar">
+		</fieldset>
+	</form>
+</body>
+</html>

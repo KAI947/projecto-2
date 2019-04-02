@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<script>
+		function calcular(){
+			// leer los años y meses introducidos por el usuario
+			var a1 = parseFloat(document.getElementById('año1').value);
+			var a2 = parseFloat(document.getElementById('año2').value);
+			var m1 = parseFloat(document.getElementById('mes1').value);
+			var m2 = parseFloat(document.getElementById('mes2').value);
+
+
+			if(a1>a2){
+				document.getElementById('resultado').innerHTML=((a1-a2)*12)+m1-m2;
+			}else if(a2>a1){
+				document.getElementById('resultado').innerHTML=((a2-a1)*12)+m2-m1;;
+			}else{ 
+				if(m1>m2){
+				document.getElementById('resultado').innerHTML=m1-m2;
+			}else{
+				document.getElementById('resultado').innerHTML=m2-m1;
+			}
+		}
+	}
+	</script>
+</head>
+<body>
+	<h2>Ingrese los años y meses</h2>
+	<span>PRIMER AÑO</span>
+	<input type="number" id="año1">
+	<span>SEGUNDO AÑO</span>
+	<input type="number" id="año2">
+	<span>PRIMER MES</span>
+	<input type="number" id="mes1">
+	<span>SEGUNDO MES</span>
+	<input type="number" id="mes2">
+	<button type="button" onclick="calcular();">Calcula</button>
+	<output id="resultado"></output>
+</body>
+</html>

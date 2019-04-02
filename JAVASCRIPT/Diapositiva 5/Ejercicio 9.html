@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function calcular(){
+				//tomar valores
+				var a=parseFloat(ina.value);
+				var b=parseFloat(inb.value);
+				var c=parseFloat(inc.value);
+
+				//comprobar que los datos sean numéricos
+				if(isNaN(a)||isNaN(b)||isNaN(c)){
+					outx1.innerHTML='Error en los datos de entrada';
+					outx2.innerHTML='';
+				}else{
+
+					//comprobar que la ecuación sea de segundo grado
+					if(a==0){
+						outx1.innerHTML='No es ecuación de segundo grado';
+						outx2.innerHTML='';
+					}else{
+
+						//calcular discriminante
+						var disc=b*b-4*(a*c);
+
+						//comprobar si tiene solución real.
+						if(disc<0){
+							outx1.innerHTML='La ecuación no tiene solución real';
+							outx2.innerHTML='';
+						}else{
+							//calcular las soluciones
+							var x1=(-b+Math.sqrt(disc))/(2*a);
+							var x2=(-b-Math.sqrt(disc))/(2*a);
+
+							//mostrar soluciones
+							outx1.innerHTML=x1;
+							outx2.innerHTML=x2;
+						}
+
+					}
+
+				}
+
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Ecuaciones de segundo grado</h1>
+		<label>a: </label>
+		<input type="text" id="ina">
+		<br>
+		<label>b: </label>
+		<input type="text" id="inb">
+		<br>
+		<label>c: </label>
+		<input type="text" id="inc">
+		<br>
+		<button onclick="calcular();">Calcular</button>
+
+		<h2>Resultados</h2>
+		<label>x1: </label>
+		<output id="outx1"></output>
+		<br>
+		<label>x2: </label>
+		<output id="outx2"></output>
+	</body>
+</html>

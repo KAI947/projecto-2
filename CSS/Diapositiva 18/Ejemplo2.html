@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejemplo 2</title>
+	<style type="text/css">
+		#tapete{
+			position: fixed;
+			width: 50%; height: 50%;
+			top: 15%; left: 25%;
+			background-color: #696;
+			padding: 30px;
+		}
+		#tapete:hover .carta{
+			transform: rotateY(180deg) rotate(20deg);
+		}
+		.carta{
+			position: relative;
+			margin: auto;
+			width: 200px; height: 280px;
+			transform-style: preserve-3d;
+			border-radius: 10px;
+			transition: 2s; 
+		}
+		.carta .frontal{
+			position: absolute;
+			width: 215px; height: 315px;
+			backface-visibility: hidden;
+		}
+		.cara .cara.trasera{
+			transform: rotateY(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div id="tapete">
+		<div class="carta">
+			<img class="cara frontal" src="frontal.png">
+			<img class="cara trasera" src="trasera.png">
+		</div>
+	</div>
+</body>
+</html>

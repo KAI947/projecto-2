@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>Ejercicio 2</title>
+	<script>
+		function area(){
+			var a = document.getElementById('altura').value;
+			var b = document.getElementById('base').value;
+
+			var resultado = (b*a)/2;
+
+			document.getElementById('resultado').innerHTML=resultado;
+		}
+
+	</script>
+</head>
+<body>
+	<h1>Area de un triangulo rectangulo</h1>
+	<h2>Vamos la hipotenusa hay que descubrir</h2>
+
+	<span>altura:</span>
+	<input type="number" id="altura">
+	<br>
+
+	<span>base:</span>
+	<input type="number" id="base">
+
+	<button onclick="area();">area</button>
+
+	<span>resultado:</span>
+	<span id="resultado"></span>
+</body>
+</html>

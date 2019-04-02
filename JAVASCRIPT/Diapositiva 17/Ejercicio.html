@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>trickier nesting.still</title>
+	<script src="estructura.js"></script>
+	<script>
+	window.onload=function(){ //al cargar la ventana
+    mostrar(document); //mostrar la estructura del documento
+              };
+	</script>
+</head>
+<body>
+	<div>
+		<div>
+			<table>
+				<tr>
+					<th>Steps</th>
+					<th>Process</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Figure out the <em>root element</em>.</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Deal with the <span>head</span>first, as it's usually easy</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Work through the <span>body</span>just <em>take your time</em>.</td>
+				</tr>
+			</table>
+		</div>
+		<div>This link is <em>not</em>active, but if it were, the answers to this<a href=""><img src=""></a>would be there.But <em>do the exercise anyway</em></div>
+	</div>
+	<script>
+		var nodo = document.getElementsById('t1');
+		document.write('nodo'+nodo+'<br>');
+		document.write('padre'+nodo.parentNote+'<br>');
+		document.write('hijos'+nodo.childNodes+'<br>');
+
+		var hijos = childNodes;
+		document.write('hijos'+hijos.legnth+'<br>'); //ojo
+		document.write('texto en primer parrafo:'+hijos[1].innerHTML+'<br>');
+	</script>
+</body>
+</html>

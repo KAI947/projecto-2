@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+</head>
+<body>
+	<button onclick="cerrar();">¡¡PARATE YA!!</button>
+	<script>
+		var intervalo = setInterval(abrir, 2000);
+		var propaganda =[];
+		function abrir(){
+		propaganda.push(window.open('https://tmofans.com/', '','height=500,width=500'));
+		}
+		function cerrar(){
+			clearInterval(intervalo);
+			for(let i=0; i<propaganda.length; i++){
+				propaganda[i].close();
+			}
+		}
+	</script>
+</body>
+</html>

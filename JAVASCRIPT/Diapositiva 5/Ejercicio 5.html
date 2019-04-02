@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>ejercicio 5</title>
+	<script>
+		function calcula(){
+			var r = document.getElementById('radio').value;
+			var PI =3.1416;
+            var p = 2*PI*r;
+			var a = PI*(r*r);
+			var d = 2*r;
+			
+
+
+			if(perimetro.checked){
+				document.getElementById('resultado1').innerHTML=p;
+			}
+			if(area.checked){
+				document.getElementById('resultado2').innerHTML=a;
+			}
+			if(diametro.checked){
+				document.getElementById('resultado3').innerHTML=d;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>CALCULAR EL PERIMETRO, EL AREA Y EL DIAMETERO DE UNA CIRCUNFERENCIA</h1>
+	<span>Radio:</span>
+	<input type="number" id="radio">
+	<input type="checkbox" id="perimetro">perimetro
+	<input type="checkbox" id="area">area
+	<input type="checkbox" id="diametro">diametro<br>
+	<span>Resultado:</span><br>
+	<span id="resultado1">0</span><br>
+	<span id="resultado2">0</span><br>
+	<span id="resultado3">0</span><br>
+	<button onclick="calcula();">calcula</button>
+
+</body>
+</html>

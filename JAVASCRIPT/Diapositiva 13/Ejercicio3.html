@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<script>
+		function cumpleaños(d,m,a){
+			var hoy = new Date();
+			hoy.setHours(0,0,0,0);
+			var cumple = new Date();
+			cumple.setHours(0,0,0,0);
+
+			cumple.setDate(d);
+			cumple.setMonth(m-1);
+
+			var aDif = hoy.getFullYear()-a;
+			
+			if(cumple>hoy){
+				var diferencia = cumple-hoy;
+				diferencia = parseInt(((((diferencia/1000)/60)/60)/24));
+				alert(diferencia);
+			}else if(cumple.getTime()==hoy.getTime()){
+				alert('aun te falta te aguantas y te jodes');
+			}else{
+				cumple.setFullYear(cumple.setFullYear()+1);
+				var diferencia = cumple-hoy;
+				diferencia = parseInt(((((diferencia/1000)/60)/60)/24));
+				aDif++;
+
+					alert('hoy es tu cumple se feliz');
+			}
+		}
+	</script>
+	<h1>CUMPLEAÑOS</h1>
+	<span>Cumple :</span>
+	<input type="number" id="d" min="1" max="31">
+	<span>tu mes :</span>
+	<input type="number" id="m" min="1" max="12">
+	<span>tu año :</span>
+	<input type="number" id="a" min="1900" max="2100">
+	<button onclick="cumpleaños(parseInt(d.value), parseInt(m.value), parseInt(a.value));">cuanto falta</button>
+</body>
+</html>

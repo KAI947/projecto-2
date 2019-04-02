@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+	<style>
+		img{
+			width: 10%;
+			transition: 1s;
+		}
+	</style>
+</head>
+<body>
+	<img src="ssj.png">
+	<script>
+		var fotos = ["ssj.png","ssj2.png","ssj3.png","ssjg.png","ssjb.png","migatte.png"];
+		var i = 1;
+		setInterval(function(){
+			document.body.firstElementChild.src = fotos[i];
+			i++;
+			if(i==6){
+				i=0
+			}
+		}, 2000)
+	</script>
+</body>
+</html>

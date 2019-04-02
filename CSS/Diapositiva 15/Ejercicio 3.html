@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>Ejercicio 3</title>
+	<style type="text/css">
+	body, header, form, aside, main, footer, nav{
+		border: dashed 1px #f00;
+	}
+		*{
+			margin: 0px;
+			padding: 10px;
+		}
+		body{
+			padding: 20px;
+			background-image: url(poseidon.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		header{
+			grid-area: cabecera;
+		}
+		nav{
+			grid-area: navegacion;
+		}
+		h1{
+			color: red;
+			text-shadow: 4px 4px 4px black;
+		}
+		h2{
+			color:red;
+			text-shadow: 4px 4px 4px black;
+		}
+		h3{
+			color: white;
+			text-shadow: 4px 4px 4px black;
+		}
+		form{
+
+		}
+		aside:first-of-type{
+			grid-area: aside1;
+		}
+		aside:nth-of-type{
+			grid-area: aside2;
+
+		}
+		aside:last-of-type{
+			grid-area: aside3;
+
+		}
+		main{
+			grid-area: contenido;
+
+		}
+		footer{
+			grid-area: footer;
+			text-align: right;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera cabecera login'
+			'navegacion navegacion navegacion navegacion'
+			'aside1 contenido contenido contenido'
+			'aside2 contenido contenido contenido'
+			'aside3 contenido contenido contenido'
+			'footer footer footer footer';
+			grid-gap: 10px;
+		}
+		figure{
+			height: 300px; width: 300px;
+			overflow: hidden;
+			box-shadow: 4px 4px 4px rgba(60,60,60,60,0.6);
+			display: inline-block;
+		}
+		figure img{
+			border-radius: 30px;
+			width: 300px;
+			height: 250px;
+			transition: 0.5s;
+		}
+		figure img:hover{
+			transform: scale(1.5);
+		}
+	</style>
+</head>
+<body>
+	<h1>BARCOS HISTORICOS DE FICCION Y REALES</h1>
+
+	<div class="grid-container">
+		<header>
+			<h1>Barcos piratas o Barcos de la armada</h1>
+				<figure>
+					<img src="jack.jpg" alt="jack">
+				</figure>
+				<figure>
+                    <img src="velero.jpg" alt="velero">
+                </figure>
+                <figure>
+            	    <img src="espacial2.jpg" alt="espacial2">
+                </figure>
+		</header>
+		<form>
+			<img src="rosa3.jpg">
+		</form>
+		<nav>NAV</nav>
+		<aside>ASIDE</aside>
+		<aside>ASIDE</aside>
+		<aside>ASIDE</aside>
+		<main>
+			<h2>BARCOS DE FICCION Y REALES</h2>
+			<h2>BARCOS REALES</h2>
+			<h3>Un barco es un vehículo capaz de flotar en el agua y de trasladarse sobre ella. El concepto alude a la estructura de forma cóncava que suele tener dimensiones amplias y que se utiliza como medio de transporte.
+
+            A nivel general, un barco puede ser una pequeña embarcación para un pasajero que se moviliza con remos o un enorme crucero con capacidad para miles de personas y con piscinas, restaurantes, casinos y discotecas. Por eso la noción se puede emplear para aludir a diferentes clases de estructuras flotantes.</h3>
+            <figure>
+            <img src="crucero.jpg" alt="crucero">
+            </figure>
+            <figure>
+            <img src="velero.jpg" alt="velero">
+            </figure>
+            <figure>
+            <img src="yate.jpg" alt="yate">
+            </figure>
+            <h2>BARCOS DE FICCION O ANIMADOS</h2>
+            <h3>barcos que estan inspirados en los reales con un toque exagerado con alas, cañones y poder destructivo</h3>
+            <figure>
+            <img src="moby.png" alt="moby">
+            </figure>
+            <figure>
+            <img src="luffy.png" alt="luffy">
+            </figure>
+            <figure>
+            <img src="shanks.png" alt="shanks">
+            </figure>
+            <h2>BARCOS ESPACIALES Y CRUCEROS ESPACIALES</h2>
+            <h3>Barcos en un futuro bastante lejano pero con gran comodidad y poder tanto economico, militar, propio</h3>
+            <figure>
+            	<img src="espacial1.jpg" alt="espacial1">
+            </figure>
+            <figure>
+            	<img src="espacial2.jpg" alt="espacial2">
+            </figure>
+            <figure>
+            	<img src="espacial3.jpg" alt="espacial3">
+            </figure>
+		</main>
+		<footer>
+			<h2>by: Manuel candela</h2>
+			<h2>Barcos</h2>
+		</footer>
+	</div>
+</body>
+</html>

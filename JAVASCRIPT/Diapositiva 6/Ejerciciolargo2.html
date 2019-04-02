@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio largo 2</title>
+	<script>
+		function divisor(){
+			var numero = parseInt(document.getElementById('numero').value);
+			var resultado = "";
+
+			for(let i=1;i<=numero;i++){
+				if(numero%i==0){
+					resultado+=i+', ';
+				}
+			}
+			alert(resultado);
+		}
+	</script>
+</head>
+<body>
+	<h1>LOS DIVISORES</h1>
+	<span>Numero:</span>
+	<input type="number" id="numero">
+	<button onclick="divisor();">calcula</button>
+</body>
+</html>

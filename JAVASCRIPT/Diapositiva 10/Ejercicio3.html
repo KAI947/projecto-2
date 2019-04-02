@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<script>
+		function encriptacion(){
+			var contra = "";
+			var result = password.value;
+
+			for(let i=0; i<result.length; i++){
+				contra+= String.fromCharCode((parseInt(result.charCodeAt(i))+1));
+			}
+			document.getElementById('password').value=contra;
+		}
+		function desencriptacion(){
+			var contra = "";
+			var result = password.value;
+
+			for(let i=0; i<result.length; i++){
+				contra+= String.fromCharCode((parseInt(result.charCodeAt(i))-1));
+			}
+			document.getElementById('password').value=contra;
+		}
+	</script>
+	<h1>encriptacion pura y dura</h1>
+	<span>TU CONTRASEÑA</span>
+	<input type="text" id="password">
+	<button onclick="encriptacion();">encritpar</button>
+	<button onclick="desencriptacion();">desencriptar</button>
+</body>
+</html>

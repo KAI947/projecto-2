@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<script>
+		function crea(){
+			var h = document.createElement('h1');
+			var text = document.createTextNode('Esto es una pagina web para que no entre el isma');
+			var atributo = document.createAttribute('class');
+			atributo.value = 'impotante'
+			var image = document.createElement('img'); 
+			image.src = "mio.gif";
+
+			var figu = document.createElement('figure')
+			var text2 = document.createTextNode('bienvenido a mi web');
+			var atributo2 = document.createAttribute('class', 'foto');
+			var figca = document.createElement('figcaption');
+
+
+
+			h.setAttributeNode(atributo);
+			h.appendChild(text);
+			document.body.appendChild(h);
+			document.body.appendChild(figu);
+			figu.appendChild(image);
+			figu.appendChild(figca);
+			figca.appendChild(text2);
+			image.setAttributeNode(atributo2);
+
+			
+
+
+		}
+	</script>
+	<button onclick="crea();">PAGINA WEB DINAMICA</button>
+</body>
+</html>

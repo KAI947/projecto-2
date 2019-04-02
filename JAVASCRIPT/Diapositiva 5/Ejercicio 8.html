@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 8</title>
+	<script>
+		function insertar(){
+			var a = parseFloat(document.getElementById('a').value);
+			var b = parseFloat(document.getElementById('b').value);
+			var c = parseFloat(document.getElementById('c').value);
+
+			if(a+b>c && a+c>b && b+c>a){
+
+			if(a==b && a==c){
+				document.getElementById('tipo').innerHTML='EQUILATERO';
+			}
+			else if(a==b || b==c || a==c){
+				document.getElementById('tipo').innerHTML='ISOSCELES';
+			}else{
+				document.getElementById('tipo').innerHTML='ESCALENO';
+			}
+			
+		    }else{
+				document.getElementById('tipo').innerHTML='NO ES UN TRIANGULO';
+			}
+	}
+	</script>
+</head>
+<body>
+	<h2>Apor los triangulos</h2>
+	<span>Medida 1</span>
+	<input type="number" id="a"><br />
+	<span>Medida 2</span>
+	<input type="number" id="b"><br />
+	<span>Medida 3</span>
+	<input type="number" id="c"><br />
+	<button onclick="insertar();">MEDIR</button>
+	<hr>
+	<span>Tipo de triangulo segun sus lados:</span>
+	<output id="tipo"></output>
+</body>
+</html>

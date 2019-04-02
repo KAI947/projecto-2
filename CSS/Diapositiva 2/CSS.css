@@ -1,0 +1,59 @@
+h1,h2{
+	color:#FFFFFF;
+}
+#azul:target{
+	color: #0000FF;
+}
+/* los parrafos justo de un h2 */
+h2+p{
+	font-variant: small-caps;
+}
+/* los parrafos detras de un h3 */
+h3~p{
+	text-decoration: line-through;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	margin-bottom: 10px;
+}
+html{
+	background-color: red;
+}
+body{
+	font-family: arial black;
+	margin: 20px auto 20px auto;
+	padding: 20px;
+	width: 80%;
+	background-color: yellow;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px blue;
+	text-decoration: underline;
+}
+figure{
+	padding: 10px;
+	background-color: grey;
+}
+figure img{
+	width: 100%;
+}
+/*los articulos que tengan target="_blank" */
+a[target="_blank"]{
+	font-style: italic;
+}
+/* enlaces seguros */
+a[href^="https://"]{
+	color: green;
+}
+/* selecciona el elemento con ID introduccion */
+#introduccion{
+	font-family: arial;
+	text-decoration: underline;
+}
+/* selecciona el elemento con ID desenlace */
+#desenlace{
+	font-weight: normal;
+	text-transform: uppercase;
+}

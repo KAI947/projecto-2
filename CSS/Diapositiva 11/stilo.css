@@ -1,0 +1,94 @@
+   header, nav, main, footer{
+
+       	    text-align: center;
+       	    margin: 5px;
+		}
+		header{
+			display: flex;
+			text-align: center;
+			font-size: 2vw;
+			width: 100%;
+			border-radius: 30px;
+		}
+		nav{
+			text-align: center;
+			display: flex;
+			width: 100%;
+			border-radius: 30px;
+		}
+		footer{
+			padding-top: 45px;
+			padding-right: 10px;
+			text-align: right;
+		}
+		img{
+			width: 70%;
+			height: 70%;
+			vertical-align: middle;
+			border-radius: 30px;
+		}
+		li{
+			padding: 5px 20px 5px 20px;
+			margin: auto;
+			display: inline-flex;
+			
+
+		}
+		section{
+			display: inline-flex;
+			text-align: left;
+			vertical-align: middle;
+		}
+		tr{
+			height: 30px;
+		}
+		main{
+			width: 100%;
+			border-radius: 30px;
+			display: flex;
+		}
+		div{
+			display: inline-flex;
+			margin: auto;
+			flex: 1;
+		}
+		h1{
+			flex: 8;
+		}
+		h2{
+			text-align: left;
+			width: 12%;
+			font-size: 1vw;
+			flex: 1;
+		}
+		p{
+			text-align: left;
+			width: 90%;
+			font-size: 1vw;
+		    font-family: comic sans ms 
+		}
+		article{
+			width: 40%;
+			display: inline-flex;
+			margin: auto;
+			flex-wrap: wrap;
+			flex: 1;
+			align-items: center;
+		}
+		nav>div{
+			width: 40%;
+			display: flex;
+		}
+		table{
+			width: 50%;
+		}
+		article+article{
+			flex: 1;
+		}
+		body{
+			width: 80%;
+			margin: auto;
+			background-image: url(mia.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}

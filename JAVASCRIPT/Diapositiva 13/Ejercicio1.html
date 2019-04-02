@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1</title>
+</head>
+<body>
+	<script>
+		function horalocal(){
+			var d = new Date();
+			d.setTime(1332403882588);
+
+			alert(d);
+		}
+		function horalocal2(){
+			var h = new Date();
+			var n = h.toLocaleTimeString();
+
+			alert(n);
+		}
+		function horalocal3(){
+			var f = new Date();
+			var n = f.toLocaleDateString();
+
+			alert(n);
+		}
+		function horalocal4(){
+			var t = new Date();
+			var n = t.toTimeString();
+
+			alert(n);
+		}
+		function horalocal5(){
+			var l = new Date();
+			var n = l.toLocaleString();
+
+			alert(n);
+		}
+		function horalocal6(){
+			var l2 = new Date();
+			var n = l2.toJSON();
+
+			alert(n);
+		}
+	</script>
+	<h1>DATES</h1>
+	<span>setTime :</span>
+	<button onclick="horalocal();">hora local</button>
+	<hr>
+	<span>toLocaleTimeString :</span>
+	<button onclick="horalocal2();">hora actual</button>
+	<hr>
+	<span>toLocaleDateString :</span>
+	<button onclick="horalocal3();">fecha actual</button>
+	<hr>
+	<span>toTimeString :</span>
+	<button onclick="horalocal4();">tiempo</button>
+	<hr>
+	<span>toLocaleString :</span>
+	<button onclick="horalocal5();">local</button>
+	<hr>
+	<span>toJSON :</span>
+	<button onclick="horalocal6();">local 2</button>
+</body>
+</html>

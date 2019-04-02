@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="es-ES" class="no-js">
+<head> 
+<meta charset="UTF-8" />  
+	
+<title>OBRA SOCIAL CACHITO DE CIELO</title>
+<link rel="icon" type="image/png" href="http://obrasocialcachitodecielo.org/favicon.ico"><link rel="alternate" type="application/rss+xml" title="OBRA SOCIAL CACHITO DE CIELO RSS Feed" href="http://obrasocialcachitodecielo.org/?feed=rss2" />
+<link rel="alternate" type="application/atom+xml" title="OBRA SOCIAL CACHITO DE CIELO Atom Feed" href="http://obrasocialcachitodecielo.org/?feed=atom" />
+<link rel="pingback" href="http://obrasocialcachitodecielo.org/xmlrpc.php" />
+
+		
+
+
+<link rel="alternate" type="application/rss+xml" title="OBRA SOCIAL CACHITO DE CIELO &raquo; Feed" href="http://obrasocialcachitodecielo.org/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="OBRA SOCIAL CACHITO DE CIELO &raquo; RSS de los comentarios" href="http://obrasocialcachitodecielo.org/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="OBRA SOCIAL CACHITO DE CIELO &raquo; Home RSS de los comentarios" href="http://obrasocialcachitodecielo.org/?feed=rss2&#038;page_id=1048" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/obrasocialcachitodecielo.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.17"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='theme-reset-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/rt-css-framework.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-all-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/style.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='rtfontface-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/fontface.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/prettyPhoto.css?ver=4.4.17' type='text/css' media='screen' />
+<link rel='stylesheet' id='jquery-colortip-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/colortip-1.0-jquery.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-jcarousel-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/jcarousel.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-flexslider-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/flexslider.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-nivoslider-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/nivo-slider.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-nivoslider-theme-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/nivo-default/default.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-skin-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/blue-style.css?ver=4.4.17' type='text/css' media='all' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='theme-ie7-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/ie7.css?ver=4.4.17' type='text/css' media='screen' />
+<![endif]-->
+<!--[if IE 8]>
+<link rel='stylesheet' id='theme-ie8-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/css/ie8.css?ver=4.4.17' type='text/css' media='screen' />
+<![endif]-->
+<link rel='stylesheet' id='theme-style-css'  href='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/style.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='videogallery_css-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/contus-video-gallery/css/style.min.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='gllr_stylesheet-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/gallery-plugin/css/frontend_style.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='gllr_fancybox_stylesheet-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/gallery-plugin/fancybox/jquery.fancybox-1.3.4.css?ver=4.4.17' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/revslider/rs-plugin/css/settings.css?rev=4.6.0&#038;ver=4.4.17' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='easy_table_style-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/easy-table/themes/default/style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://obrasocialcachitodecielo.org/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.easing.1.3.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.prettyPhoto.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/colortip-1.0-jquery.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.validate.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.form.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jflickrfeed.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.flexslider.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.imgpreload.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.fullbg.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.jcarousel.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.nivo.slider.pack.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.jplayer.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/plugins/contus-video-gallery/js/script.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/plugins/gallery-plugin/fancybox/jquery.mousewheel-3.0.4.pack.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/plugins/gallery-plugin/fancybox/jquery.fancybox-1.3.4.pack.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?rev=4.6.0&#038;ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=4.6.0&#038;ver=4.4.17'></script>
+<link rel='https://api.w.org/' href='http://obrasocialcachitodecielo.org/?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://obrasocialcachitodecielo.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://obrasocialcachitodecielo.org/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.17" />
+<link rel="canonical" href="http://obrasocialcachitodecielo.org/" />
+<link rel='shortlink' href='http://obrasocialcachitodecielo.org/' />
+		<!-- Start ios -->
+		<script type="text/javascript">
+			(function($){
+				$(document).ready( function() {
+					$( '#fancybox-overlay' ).css({
+						'width' : $(document).width()
+					});
+				});
+			})(jQuery);
+		</script>
+		<!-- End ios -->
+	<script type="text/javascript">var ajaxurl = "http://obrasocialcachitodecielo.org/wp-admin/admin-ajax.php"; </script><style type="text/css">body {background-image:none;}#container {background:none;}#navigation_bar > ul > li > a{color:#0b0c1a;}#footer
+			{color:#ffffff;}ul.footer_links a,ul.footer_links
+			{color:#ffffff;}ul.footer_links li
+			{border-color:#ffffff;}ul.footer_links a:hover
+			{color:#f0f0f0;}.breadcrumb
+			{color:#ffffff;}.breadcrumb a
+			{color:#ffffff;}.breadcrumb a:hover
+			{color:#ffffff;}#navigation_bar > ul > li > a {font-size:12px;}.template_builder h3, .widget .title h3, .sidebar .title h3 {font-size:18px !important;}h1{ font-size:32px;line-height:140%; }h2{ font-size:28px;line-height:140%; }h3{ font-size:24px;line-height:140%; }h4{ font-size:20px;line-height:140%; }h5{ font-size:18px;line-height:140%; }body {font-size:14px;line-height:160%;}</style><link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic" rel="stylesheet" type="text/css" /><style type="text/css">.tweet_time a,dd,.frame, .wp-caption,.blog_list .comment_quote p,.tags,.tags  a,.author_info strong a,i.decs_text,blockquote,#comments ol.commentlist li .comment-body .comment-author, #cancel-comment-reply-link,.rss-date,a.read_more,a.more-link,span.price,.client_logos_text,.recent_posts .date,.template_builder .sub_title{font-family:"Droid Serif";}</style><style type="text/css">#footer {background-color: rgba(67,142,181, 1);}</style>
+				<!--[if lt IE 9]>
+				<style type="text/css">
+				   #footer { 
+					  background:transparent;
+					  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#1438eb5,endColorstr=#1438eb5);				
+					  zoom: 1;
+				    } 
+				</style>
+				<![endif]-->
+			<style type="text/css">.margin-b30 {
+    margin-bottom: 5px !important;
+}
+.titulogeneral {
+color: #438eb5;
+text-align: center;
+padding-top: 10px;
+
+}
+.breadcrumb {
+opacity: 1;
+}
+#container {
+    padding: 20px 0px 0px;
+}</style><style type="text/css">#post-1785 h3, #post-1785 h3 a{font-size:30px; line-height:130%;}#post-1785 p{font-family:"Tangerine"; }#post-1785 p{font-size:18px; line-height:130%; }#post-1785 p{color:#253ccf;}</style>
+
+<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+<style type="text/css">body #container .rev_slider_wrapper, body #container .rev_slider  { width:940px !important;}body #container .sidebarwidth .rev_slider_wrapper, body #container .sidebarwidth .rev_slider {  width:600px !important; }@media only screen and (min-width: 768px) and (max-width: 958px) {body.responsive #container .rev_slider_wrapper, body.responsive #container .rev_slider { width:708px !important;}body.responsive #container .sidebarwidth .rev_slider_wrapper, body.responsive #container .sidebarwidth .rev_slider {  width:452px !important; }}@media only screen and (min-width: 480px) and (max-width: 767px) {body.responsive #container .rev_slider_wrapper, body.responsive #container .rev_slider  { width:420px !important;}}@media only screen and (min-width: 320px) and (max-width: 479px) { body.responsive #container .rev_slider_wrapper, body.responsive #container .rev_slider { width:280px !important;}}@media only screen and (min-width: 0px) and (max-width: 319px) { body.responsive #container .rev_slider_wrapper, body.responsive #container .rev_slider { width:240px !important;}}.tp-thumbs{bottom: 20px !important;}</style></head>
+<body class="home page page-id-1048 page-template-default gllr_stmcan ">
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var rttheme_template_dir = "http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17";  
+/* ]]> */	
+</script>
+	
+<img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2014/11/ph-10165.jpg" alt="" id="background" />
+
+
+
+<div class="social_media_top">	<!-- social media icons -->				
+	<ul class="social_media_icons"><li><a target="_blank" href="https://www.facebook.com/cachitodecielo.missami/" title="Facebook"><img src="http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/images/assets/social_media/icon-facebook.png" width="24" height="24" alt="" /></a></li></ul><!-- / end ul .social_media_icons -->
+</div>
+
+<!-- background wrapper -->
+ 
+<div id="container" class="extrapadding2">	
+	<!-- content wrapper -->
+	<div class="transparent-line"></div><!-- transparent line -->
+
+
+		<div class="content-wrapper">
+	
+
+
+		<!-- header -->
+		<div id="header" class="clearfix"><header> 
+
+						<!-- logo -->
+			<div id="logo" class="clearfix no-container  ">
+									
+													<a href="http://obrasocialcachitodecielo.org" title="OBRA SOCIAL CACHITO DE CIELO"><img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2015/10/cabeceraa_obra_social.jpg" alt="OBRA SOCIAL CACHITO DE CIELO" class="png" /></a>
+											
+							</div>
+			<!-- / end div #logo -->
+
+			<!-- navigation --> 
+			<nav><div id="navigation_bar" class="navigation">
+	 
+	 							<!-- Standart Menu -->
+					<ul id="navigation" class="menu"><li id="menu-item-1641" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1048 current_page_item menu-item-1641"><a href="http://obrasocialcachitodecielo.org/">INICIO</a></li>
+<li id="menu-item-1647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1647"><a href="http://obrasocialcachitodecielo.org/?page_id=1645">QUIENES SOMOS</a>
+<ul class="sub-menu">
+	<li id="menu-item-2328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2328"><a href="http://obrasocialcachitodecielo.org/?page_id=2324">Nuestros simbolos</a></li>
+</ul>
+</li>
+<li id="menu-item-1654" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1654"><a href="http://obrasocialcachitodecielo.org/?page_id=1650">VOLUNTARIOS</a></li>
+<li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="http://obrasocialcachitodecielo.org/?page_id=1658">CÓMO COLABORAR?</a></li>
+<li id="menu-item-1942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1942"><a href="http://obrasocialcachitodecielo.org/?page_id=1912">BLOG</a></li>
+<li id="menu-item-1708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1708"><a href="http://obrasocialcachitodecielo.org/?page_id=1701">GALERIA</a>
+<ul class="sub-menu">
+	<li id="menu-item-1707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1707"><a href="http://obrasocialcachitodecielo.org/?page_id=1701">Galería de imágenes</a></li>
+	<li id="menu-item-1706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="http://obrasocialcachitodecielo.org/?page_id=1704">Galería de videos</a></li>
+</ul>
+</li>
+<li id="menu-item-1700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1700"><a href="http://obrasocialcachitodecielo.org/?page_id=1697">DÓNDE ESTAMOS</a></li>
+<li id="menu-item-2043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2043"><a href="#">OBRA SOCIAL BARCELONA</a>
+<ul class="sub-menu">
+	<li id="menu-item-2055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2055"><a href="http://obrasocialcachitodecielo.org/?page_id=2049">Historia</a></li>
+	<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="http://obrasocialcachitodecielo.org/?page_id=2126">¿Cómo colaborar?</a></li>
+	<li id="menu-item-2149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2149"><a href="http://obrasocialcachitodecielo.org/?page_id=2145">Galería de imágenes</a></li>
+	<li id="menu-item-2157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2157"><a href="http://obrasocialcachitodecielo.org/?page_id=2155">Galería de videos</a></li>
+	<li id="menu-item-2045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2045"><a href="#">Dónde estamos</a></li>
+</ul>
+</li>
+</ul>					<!-- / Standart Menu --> 
+
+					<!-- Mobile Menu --> 
+					<div id="MobileMainNavigation-Background" class="menu-page-menu-container"><select id="MobileMainNavigation" class="menu dropdown-menu"><option value="" class="blank">&#8212; Main Menu &#8212;</option><option class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1048 current_page_item menu-item-1641 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/" selected="selected">INICIO</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1647 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1645">QUIENES SOMOS</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2328 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=2324">- Nuestros simbolos</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1654 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1650">VOLUNTARIOS</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1658">CÓMO COLABORAR?</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1942 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1912">BLOG</option>
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1708 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1701">GALERIA</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1707 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=1701">- Galería de imágenes</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=1704">- Galería de videos</option>
+
+<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1700 menu-item-depth-0" value="http://obrasocialcachitodecielo.org/?page_id=1697">DÓNDE ESTAMOS</option>
+<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2043 menu-item-depth-0" value="#">OBRA SOCIAL BARCELONA</option>	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2055 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=2049">- Historia</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=2126">- ¿Cómo colaborar?</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2149 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=2145">- Galería de imágenes</option>
+	<option class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2157 menu-item-depth-1" value="http://obrasocialcachitodecielo.org/?page_id=2155">- Galería de videos</option>
+	<option class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2045 menu-item-depth-1" value="#">- Dónde estamos</option>
+
+</select></div> 					<!-- / Mobile Menu -->    
+			
+			</div></nav>
+			<!-- / navigation  -->
+			
+		</header></div><!-- end div #header -->		 
+		
+	</div><!-- / end div content-wrapper -->  
+
+	 
+
+	<div id="main" role="main" class="clearfix"><div class=" fullwidth "><div class="content fullwidth clearfix"><div id="row_order_1" class="fixed-row clearfix">	<script type="text/javascript">
+	 /* <![CDATA[ */ 
+		// Flex Slider and Helper Functions with thumbnail navigation  
+		jQuery(window).load(function() {
+			jQuery('#unique_1_slider_carousel').flexslider({
+				animation: "slide",
+				controlNav: false, 
+				itemWidth: 220, 
+				itemMargin: 20,
+				animationLoop: false,
+				slideshow: true, 
+				slideshowSpeed:8*1000,
+				asNavFor: '#unique_1_slider'
+			});
+
+			jQuery('#unique_1_slider').flexslider({
+				animation: "fade",
+				controlNav: false,
+				animationLoop: false,
+				slideshowSpeed:8*1000,
+				slideshow: true,
+				smoothHeight: true,
+				directionNav: false,
+				sync: "#unique_1_slider_carousel",
+				after: onAfter,
+				before: onBefore 
+			}); 
+		}); 
+
+
+	/* ]]> */	
+	</script>
+
+<!-- slider area -->	
+<div class="slider_area box-shadow  no-logo-container" >
+	<div class="slider"> 
+
+		<div class="flex-container">
+		  <div class="flexslider" id="unique_1_slider">
+		    <ul class="slides">
+
+
+								 
+					<li>
+														<!-- slide image -->
+								<a href="about-us" title="SER PAN PARTIDO PARA UN MUNDO HAMBRIENTO"><img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2011/01/slide_manos_pan1-940x400.jpg" alt="SER PAN PARTIDO PARA UN MUNDO HAMBRIENTO" /></a>								<!-- /slide image -->
+				
+																<div class="flex-caption">
+								  <div class="desc-background">
+									  <h3>
+											  <a href="about-us" title="SER PAN PARTIDO PARA UN MUNDO HAMBRIENTO">												  SER PAN PARTIDO PARA UN MUNDO HAMBRIENTO											 </a>									  </h3>
+										 <!-- slide text -->
+										 MISIONERAS DEL SANTISIMO SACRAMENTO Y MARÍA INMACULADA								  </div>
+								</div>
+																			</li>
+
+		      				 
+					<li>
+														<!-- slide image -->
+								<a href="our-portfolio" title="UNIDOS CONSTRUIMOS"><img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2011/01/manos_unidas2-940x400.jpg" alt="UNIDOS CONSTRUIMOS" /></a>								<!-- /slide image -->
+				
+																<div class="flex-caption">
+								  <div class="desc-background">
+									  <h3>
+											  <a href="our-portfolio" title="UNIDOS CONSTRUIMOS">												  UNIDOS CONSTRUIMOS											 </a>									  </h3>
+										 <!-- slide text -->
+										 Bienaventurados los pobres en espíritu, porque de ellos es el Reino de los cielos.  Mateo 5,3								  </div>
+								</div>
+																			</li>
+
+		       
+		    </ul>
+		  </div>
+		</div> 
+
+		 
+
+				<div id="unique_1_slider_carousel" class="flexslider slider-carousel margin-t20">
+		  <ul class="slides">
+				<li><img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2011/01/slide_manos_pan1-220x80.jpg" alt="SER PAN PARTIDO PARA UN MUNDO HAMBRIENTO" /></li><li><img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2011/01/manos_unidas2-220x80.jpg" alt="UNIDOS CONSTRUIMOS" /></li>	
+		  </ul>
+		</div>
+		
+		
+	</div>
+</div><!-- / end div #slider_area -->  
+ </div><div class="space margin-b30"></div><div id="row_order_2" class="fixed-row clearfix">	<div class="content-wrapper box-shadow clearfix banner_holder" id="banner-2">	<div class="template_builder banner clearfix">	<div class="featured_text"><p>MISIONERAS DEL SANTÍSIMO SACRAMENTO Y MARÍA INMACULADA	</p>		</div></div></div>	</div><div class="space margin-b30"></div><div id="row_order_3" class="fixed-row clearfix"><div class="fixed-row">
+		<!-- box -->
+		<div class="template_builder box home-content-box box-shadow one first last " id="post-1235">
+
+								
+
+				
+
+				 
+				
+				
+				
+
+							
+				<!-- text-->
+				<p><span class="font_5"><span class="color_5">La obra social “Cachito de Cielo”, vinculada y dirigida por la Congregación de las Religiosas Misioneras del Santísimo Sacramento y María Inmaculada, fundada por María Emilia Riquelme y Zayas, en colaboración con los voluntarios laicos y nuestros benefactores, formamos una gran familia MISSAMI, donde cada uno aporta sus cualidades y sus dones.<br />
+</span></span></p>
+<p>Queremos ser presencia de Jesús en medio de nuestros hermanos que sufren, compartiendo sus alegrias y tristezas. Con la mirada limpia descubrir el rostro de Cristo que nos interpela: &#8220;Tuve hambre y me disteis de comer, tuve sed y me disteis de beber, estuve desnudo y me vestisteis&#8230;.&#8221; (Mt.25,35-45)</p>				
+		</div>
+		<!-- /box -->
+    
+		</div>		
+    
+		            
+ </div><div class="space margin-b30"></div><div id="row_order_4" class="fixed-row clearfix"><div id="box_14235"  class="template_builder box-shadow box  four-five first  "><div class="fixed-row">
+		<!-- box -->
+		<div class="template_builder box home-content-box box-shadow three first  " id="post-1778">
+
+								
+
+				
+
+				 
+				<!-- box title-->
+				<h3 >COMEDOR SOCIAL</h3>
+				 
+				
+								<div class="space margin-b10"></div>				
+															<!-- featured image -->
+						<img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2014/11/comedor2-420x278.jpg" class="featured " alt="COMEDOR SOCIAL" />
+						<div class="space margin-b10"></div>									
+
+							
+				<!-- text-->
+				<p>Todos los días de lunes a domingo, se brinda un desayuno a nuestros hermanos más necesitados, donde se ofrece mucho cariño, respeto y acogida, acompañado de un café caliente, bocadillos y bollos. El comedor siempre esta abierto para todos de 10.00 a 11:30. <em><strong>&#8220;No he venido a ser servido, sino a servir&#8221; <span class="st">(Mt 20, 28)</span><br />
+</strong></em></p>				
+		</div>
+		<!-- /box -->
+    
+				
+    
+		
+		<!-- box -->
+		<div class="template_builder box home-content-box box-shadow three   " id="post-1779">
+
+								
+
+				
+
+				 
+				<!-- box title-->
+				<h3 >ENTREGA DE ALIMENTOS</h3>
+				 
+				
+								<div class="space margin-b10"></div>				
+															<!-- featured image -->
+						<img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2014/11/mercados2-420x278.jpg" class="featured " alt="ENTREGA DE ALIMENTOS" />
+						<div class="space margin-b10"></div>									
+
+							
+				<!-- text-->
+				<p>Los martes y jueves se hace entrega de alimentos a familias necesitadas, dichos alimentos son donados por el banco de alimentos, caritas, cruz roja, colegios, otras instituciones solidarias, así como muchos benefactores anónimos. <strong><em>&#8220;Dad gratis, lo que habeis recibido gratis&#8221; (Mt 10 7-13)<br />
+</em></strong></p>				
+		</div>
+		<!-- /box -->
+    
+				
+    
+		
+		<!-- box -->
+		<div class="template_builder box home-content-box box-shadow three  last " id="post-1639">
+
+								
+
+				
+
+				 
+				<!-- box title-->
+				<h3 >EVANGELIZACIÓN</h3>
+				 
+				
+								<div class="space margin-b10"></div>				
+															<!-- featured image -->
+						<img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2014/11/Sin-título-1.jpg" class="featured " alt="EVANGELIZACIÓN" />
+						<div class="space margin-b10"></div>									
+
+							
+				<!-- text-->
+				<p>Este trabajo solidario que se realiza en la obra social lo recibimos como una invitación de Jesús para llegar a los corazones, con un mensaje de amor y decirles que Dios no les abandona, que Él camina con ellos.<em><strong>“Id por todo el mundo y proclamad la Buena Nueva&#8230;&#8221; (Mc 16,15)<br />
+</strong></em></p>				
+		</div>
+		<!-- /box -->
+    
+		</div>		
+    
+		            
+ </div><div id="box_69499"  class="template_builder box-shadow box  five   last"><div class="fixed-row">
+		<!-- box -->
+		<div class="template_builder box home-content-box box-shadow one first last " id="post-1785">
+
+								
+
+				
+
+				 
+				<!-- box title-->
+				<h3 class="aligncenter">María Emilia Riquelme y Zayas</h3>
+				 
+				
+								<div class="space margin-b10"></div>				
+															<!-- featured image -->
+						<img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2012/07/beatificacion1.jpg" class="featured aligncenter" alt="María Emilia Riquelme y Zayas" />
+						<div class="space margin-b10"></div>									
+
+							
+				<!-- text-->
+				<blockquote>
+<p class="aligncenter" style="text-align: left;"><span class="Apple-style-span" style="color: #440506; font-family: Lobster,cursive;"><span class="font_0"><span class="color_5">&#8220;En el cielo y en la tierra lo que vale es el amor&#8221;<br />
+</span></span></span></p>
+</blockquote>				
+		</div>
+		<!-- /box -->
+    
+		</div>		
+    
+		            
+ </div></div><div class="space margin-b30"></div><div id="row_order_6" class="fixed-row clearfix"></div><div class="space margin-b30"></div> 
+
+
+			
+		
+			
+
+		<!-- blog box-->
+		<div id="post-2615" class="box one blog loop blog_list box-shadow featured_image_center post-2615 post type-post status-publish format-standard hentry category-actividades category-noticias">
+			
+			<div class="blog-head-line  clearfix">	
+	
+								<!-- post date -->
+				<div class="date">
+					<span class="day">18</span>
+					<span class="year">Jul 2018</span> 
+				</div>
+
+				<div class="mobile-date">julio 18, 2018</div>
+				<!-- / end div .date -->
+						 				
+		 		<div class="post-title-holder">
+					<!-- blog headline-->
+					<h2>
+													<a href="http://obrasocialcachitodecielo.org/?p=2615" title="Visita alumnos Colegio Alarcón">Visita alumnos Colegio Alarcón</a>
+											</h2> 
+					<!-- / blog headline--> 
+
+					<!-- post data -->
+					<div class="post_data">
+						
+													<!-- post data -->
+																																		
+					</div><!-- / end div  .post_data -->
+
+				</div><!-- / end div  .post-title-holder -->	 
+			</div><!-- / end div  .blog-head-line -->	
+
+
+
+			
+							<!-- blog image--> 
+				    <a href="http://obrasocialcachitodecielo.org/?p=2615" title="" class="imgeffect link aligncenter">
+					   <img src="http://obrasocialcachitodecielo.org/wp-content/uploads/2018/07/20180622_094427-940x500.jpg" class="featured_image" alt="" />
+				    </a>  
+				<!-- / blog image -->
+				
+									<div class="space margin-t20"></div> 
+				 
+					 
+
+
+			
+
+			
+						
+				<!-- blog text-->
+											
+					<p>Durante el mes de junio, hemos tenido la visita de un grupo de estudiantes del Colegio Alarcón acompañados de la profesora Nuria, quienes con mucho entusiasmo han colaborado en las diferentes tareas que llevan a diario en el Comedor Social Cachito de Cielo, os compartimos algunos momentos vividos por los jóvenes. También os compartimos la..  <a href="http://obrasocialcachitodecielo.org/?p=2615 " class="read_more" >read more →</a></p>						
+				<!-- /blog text-->
+
+			 
+			</div> <!-- / blog box-->	 
+			
+						
+    
+ 
+
+ 
+ 
+	<div class="space margin-b30"></div>
+	<!-- paging-->
+	<div class="paging_wrapper clearfix">
+		<ul class="paging">
+			<li class='active'><a href='http://obrasocialcachitodecielo.org/'>1</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=2'>2</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=3'>3</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=4'>4</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=5'>5</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=6'>6</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=7'>7</a></li>
+<li><a href='http://obrasocialcachitodecielo.org/?paged=8'>8</a></li>
+<li class="arrowright"><a href="http://obrasocialcachitodecielo.org/?paged=2" >→</a></li>
+		</ul>
+	</div>			
+
+
+<div class="space margin-b30"></div><div id="row_order_8" class="fixed-row clearfix">	<div class="content-wrapper box-shadow clearfix banner_holder" id="banner-8">	<div class="template_builder banner clearfix">	<div class="featured_text"><p>Y comieron todos y se saciaron. Y recogieron de los pedazos doce cestas llenas, y de lo que sobró de los peces	</p>		</div></div></div>	</div><div class="space margin-b30"></div></div></div></div>
+
+	<!-- footer --> 
+	 
+		<div class="content fullwidth clearfix">
+			<div class="footer_widgets"> 
+								
+			</div> 			
+		</div>
+	
+	<div class="footer_pos_fix">
+	<div class="transparent-line footer"></div><!-- transparent line -->
+	<div id="footer" class="box-shadow">
+	<footer>
+	 
+		<!-- footer info -->
+		<div class="footer_info">		
+				
+				<!-- left side -->
+				<div class="part1">
+
+					<!-- footer nav -->
+										    <ul id="menu-rt-theme-footer-navigation-menu" class="footer_links"><li id="menu-item-1776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1776 first"><a href="http://obrasocialcachitodecielo.org/?page_id=1645">Quienes Somos</a></li>
+<li id="menu-item-1777" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1777"><a href="http://obrasocialcachitodecielo.org/?page_id=1650">Voluntari@s</a></li>
+<li id="menu-item-1941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1941"><a href="http://obrasocialcachitodecielo.org/?page_id=1912">Blog</a></li>
+</ul>			  			<!-- / end ul .footer_links -->
+		  								
+
+					<!-- copyright text -->
+					<div class="copyright">2014 - MISIONERAS DEL SANTÍSIMO SACRAMENTO Y MARÍA INMACULADA					</div><!-- / end div .copyright -->				
+					
+				</div><!-- / end div .part1 -->
+				
+				<!-- social media icons -->				
+				<ul class="social_media_icons"><li><a target="_blank" href="https://www.facebook.com/cachitodecielo.missami/" title="Facebook"><img src="http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/images/assets/social_media/icon-facebook.png" width="24" height="24" alt="" /></a></li></ul><!-- / end ul .social_media_icons -->
+
+		</div><!-- / end div .footer_info -->
+		
+	</footer>
+	<div class="clear"></div>
+	</div><!--! end of div #footer -->
+	</div><!--! end of div .footer_pos_fix -->
+
+  </div><!-- end div #container -->
+
+ 
+	<script>
+		var getElementsByClassName=function(a,b,c){if(document.getElementsByClassName){getElementsByClassName=function(a,b,c){c=c||document;var d=c.getElementsByClassName(a),e=b?new RegExp("\\b"+b+"\\b","i"):null,f=[],g;for(var h=0,i=d.length;h<i;h+=1){g=d[h];if(!e||e.test(g.nodeName)){f.push(g)}}return f}}else if(document.evaluate){getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e="",f="http://www.w3.org/1999/xhtml",g=document.documentElement.namespaceURI===f?f:null,h=[],i,j;for(var k=0,l=d.length;k<l;k+=1){e+="[contains(concat(' ', @class, ' '), ' "+d[k]+" ')]"}try{i=document.evaluate(".//"+b+e,c,g,0,null)}catch(m){i=document.evaluate(".//"+b+e,c,null,0,null)}while(j=i.iterateNext()){h.push(j)}return h}}else{getElementsByClassName=function(a,b,c){b=b||"*";c=c||document;var d=a.split(" "),e=[],f=b==="*"&&c.all?c.all:c.getElementsByTagName(b),g,h=[],i;for(var j=0,k=d.length;j<k;j+=1){e.push(new RegExp("(^|\\s)"+d[j]+"(\\s|$)"))}for(var l=0,m=f.length;l<m;l+=1){g=f[l];i=false;for(var n=0,o=e.length;n<o;n+=1){i=e[n].test(g.className);if(!i){break}}if(i){h.push(g)}}return h}}return getElementsByClassName(a,b,c)},
+			dropdowns = getElementsByClassName( 'dropdown-menu' );
+		for ( i=0; i<dropdowns.length; i++ )
+			dropdowns[i].onchange = function(){ if ( this.value != '' ) window.location.href = this.value; }
+	</script>
+	<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/script.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-content/themes/rttheme17/js/jquery.tools.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-includes/js/comment-reply.min.js?ver=4.4.17'></script>
+<script type='text/javascript' src='http://obrasocialcachitodecielo.org/wp-includes/js/wp-embed.min.js?ver=4.4.17'></script>
+</body>
+</html> 

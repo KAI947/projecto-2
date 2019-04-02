@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>PRUEBA NOTA</title>
+	<script>
+		function calcular(){
+			//tomar las notas de los inputs
+			var teoria = parseFloat(inteoria.value);
+			var practica =parseFloat(inpractica.value);
+
+			//calcular la nota
+			var nota = teoria*0.3+practica*0.7;
+
+			//bifurcacion simple si hay punto extra
+			if(inextra.checked){
+				nota++;
+            }
+		    //otra bifurcacion simple si onta es mayor>10
+
+		    if(nota>10){
+		    	nota = 10;
+		     }  
+		       outresultado.innerHTML = nota;
+			
+		}
+	</script>
+</head>
+<body>
+	<h2>como apagaar el ordenador a toda tu clase apropiadamente</h2>
+
+	<span>teoria</span>
+	<input type="number" id="inteoria">
+	<span>practica</span>
+	<input type="number" id="inpractica">
+	<input type="checkbox" id="inextra">
+	<br/>
+	<button onclick="calcular();">calcula</button>
+	<output id="outresultado"></output>
+</body>
+</html>

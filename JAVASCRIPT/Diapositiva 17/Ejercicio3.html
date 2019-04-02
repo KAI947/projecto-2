@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<title>Naruto Y Sword art online </title>
+		<link rel="stylesheet" type="text/css" href="naruto.css">
+
+		<script>
+			window.onload = function(){
+				//recuperar todas figuras de la galería
+				var figuras = document.getElementById('galeria').getElementsByTagName('figure');
+
+				//ponerles el tratamiento de eventos
+				for(var i=0; i<figuras.length; i++){
+					//al hacer click sobre una figura, se debe mostrar en grande
+					figuras[i].onclick = function(){
+						mostrar(this);
+					}
+				}
+			}
+
+
+			function mostrar(figura){
+				//crea la figura a pantalla completa
+				var figuraGrande = document.createElement('figure');
+				figuraGrande.setAttribute('id','grande');
+
+				//al hacer click en la figura grande, ésta se cerrará
+				figuraGrande.onclick = function(){this.remove();}
+
+				//crear la imagen de dentro de la figura grande
+				var imagen = document.createElement('img');
+				imagen.setAttribute('src', figura.firstElementChild.src);
+				
+				//añadir la imagen a la figura grande
+				figuraGrande.appendChild(imagen);				
+
+
+				//recuperar la información y ponerla en un figcaption
+				var leyenda = document.createElement('figcaption');
+				var lugar = figura.firstElementChild.dataset.lugar;
+				var fecha = figura.firstElementChild.dataset.fecha;
+				leyenda.innerHTML = lugar.toUpperCase()+' ('+fecha+')';
+				figuraGrande.appendChild(leyenda);
+
+				//añadir la figura grande al body
+				document.body.appendChild(figuraGrande);
+			}
+
+		</script>
+
+	</head>
+
+	<body>		
+		<h1>Naruto y Sword art online gallery</h1>	
+
+		<section id="galeria">
+			<figure>
+				<img src="naruto.png" alt="naruto" data-lugar="HIJO" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="naruto.jpg" alt="naruto" data-lugar="FINAL DE LA CUARTA GUERRA NINJA" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="naruto.jpeg" alt="naruto" data-lugar="DESPUES DE 2 AÑOS" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="naruto1.jpg" alt="naruto1" data-lugar="NARUTO Y HINATA UNIENDO FUERZAS" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="naruto2.png" alt="naruto2" data-lugar="NARUTO MODO ASHURA CABREADO" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="naruto3.png" alt="naruto3" data-lugar="EL LEGENDARIO EQUIPO 7" data-fecha="25/03/2019">
+			</figure>
+			<!-- seraparacion -->
+			<figure>
+				<img src="sao1.jpg" alt="sao1" data-lugar="ASUNA X KIRITO" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="sao2.jpg" alt="sao2" data-lugar="ALO 2" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="sao3.jpg" alt="sao3" data-lugar="ASUNA X KIRITO 2" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="sao4.jpg" alt="sao4" data-lugar="SAO PRIMERA PARTE" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="sao5.jpg" alt="sao5" data-lugar="GGO" data-fecha="25/03/2019">
+			</figure>
+
+			<figure>
+				<img src="sao6.jpg" alt="sao6" data-lugar="ALO" data-fecha="25/03/2019">
+			</figure>
+		</section>  
+     
+		<footer>
+			<h1>Yehaaaaaaa!</h1>
+		</footer>
+	
+
+</body></html>

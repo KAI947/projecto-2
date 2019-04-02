@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 1 y 2</title>
+</head>
+<body>
+	<h1>CATS!</h1>
+	<img src="gatos-de-interior.jpg">
+	<p>So cute!</p>
+	<ul>
+		<li>Lizzie</li>
+		<li>Deamon</li>
+	</ul>
+	<button onclick="cambiar(); cambiar2(); cambiar3();">HENSHIN</button>
+	<script>
+		function cambiar(){
+			var li = document.getElementsByTagName('li');
+
+			for(let i = 0; i < li.length; i ++){
+				li[i].style.background = "blue";
+			}
+		}
+		function cambiar2(){
+			document.body.firstElementChild.innerHTML = "DOGS!";
+		}
+		function cambiar3(){
+			for(let imag of document.images){
+				imag.src = "AHORA-PARQUE-PERROS.jpg";
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<h1>nombres y apellidos</h1>
+	<script>
+		function cadena(nombre, apellido1, apellido2){
+			nombre = nombre[0].toUpperCase()+nombre.slice(1);
+			alert(apellido1+' '+apellido2+', '+nombre);
+		}
+	</script>
+	<span>Nombre :</span>
+	<input type="text" id="nombre">
+	<span>Apellido1 :</span>
+	<input type="text" id="apellido1">
+	<span>Apellido 2:</span>
+	<input type="text" id="apellido2">
+	<button onclick="cadena(nombre.value.toLowerCase(), apellido1.value.toUpperCase(), apellido2.value.toUpperCase());">HAZ CLICK</button>
+</body>
+</html>

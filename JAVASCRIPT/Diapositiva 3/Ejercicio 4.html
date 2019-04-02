@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+	<script>
+		function converter(){
+			var km=parseFloat(document.getElementById('km').value);
+
+			var result= km/1.609;
+
+			document.getElementById('resultado').innerHTML= result;
+		}
+	</script>
+</head>
+<body>
+	<h1>KILOMETROS A MILLAS</h1>
+	<h2>Distancia</h2>
+
+	<span>Kilometros:</span>
+	<input type="number" id="km">
+	<br>
+
+	<button onclick="converter();">Millas</button>
+	<br>
+
+	<span id="resultado">0</span>
+</body>
+</html>

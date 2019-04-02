@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	padding: 10px;
+}
+header, footer, main, aside{
+	text-align: center;
+	padding: 20px;
+}
+header{
+	background-color: red;
+	grid-column: 1/4;
+}
+aside{
+	background-color: lightblue;
+}
+main{
+
+	background-color: red;
+}
+footer{
+	grid-column: 1/4;
+	background-color:lightblue; 
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	grid-gap: 5px;
+}

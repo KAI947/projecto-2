@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>RETRATOS</title>
+	<style type="text/css">
+		body, header, nav, main, footer{
+		}
+		*{
+			margin: 19px;
+			padding: 10px;
+			background-color: #081EBB;
+		}
+		body{
+			padding: 20px;
+		}
+		header{
+			grid-area: cabecera;
+			background-color: yellow;
+		}
+		h1{
+			text-align: center;
+			width: 25%;
+			margin: auto;
+			color: yellow;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		li{
+			float: left;
+		}
+		li a{
+			display: inline-block;
+			color: yellow;
+			text-align: center;
+			padding: 14px 170px;
+			text-decoration: none;
+			font-size: 1vw;
+		}
+		nav{
+			grid-area: navegacion;
+			background-color: yellow;
+		}
+		main{
+			grid-area: contenido;
+			background-color: yellow;
+		}
+		img{
+			display: inline-block;
+			filter: invert(100%);
+			transition: filter 0.4s;
+			cursor: zoom-in;
+		}
+		 img:hover{
+			filter: invert(0%);
+		}
+		footer{
+			grid-area: footer;
+			background-color: yellow;
+			text-align: right;
+		}
+		.grid-container{
+			display: grid;
+			grid-template-areas: 
+			'cabecera cabecera cabecera login'
+			'navegacion navegacion navegacion navegacion'
+			'aside1 contenido contenido contenido'
+			'aside2 contenido contenido contenido'
+			'aside3 contenido contenido contenido'
+			'footer footer footer footer';
+			grid-gap: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>GALERIA DE RETRATOS</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Ejercicio2.html">PAISAJES</a></li>
+			<li><a href="Ejercicio%202B.html">RETRATOS</a></li>
+			<li><a href="Ejercicio2c.html">OBRAS</a></li>
+		</ul>
+	</nav>
+	<main>
+		<img src="retrato1.jpg">
+		<img src="retrato2.jpg">
+		<img src="retrato3.jpg">
+		<img src="retrato4.jpg">
+		<img src="retrato5.jpg">
+		<img src="retrato6.jpg">
+		<img src="retrato7.jpg">
+		<img src="retrato8.jpg">
+		<img src="retrato9.jpg">
+	</main>
+	<footer>
+		<h1>BY: MANUEL CANDELA (KAI 94)</h1>
+	</footer>
+</body>
+</html>

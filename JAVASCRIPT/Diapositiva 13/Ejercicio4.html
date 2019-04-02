@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<meta charset="utf-8">
+	<title>Ejercicio 4</title>
+</head>
+<body>
+	<script>
+		var fin;
+		var intervalo;
+		function contra(){
+			var d = parseInt(document.getElementById('d').value);
+			var m = parseInt(document.getElementById('m').value);
+			var a = parseInt(document.getElementById('a').value);
+			var h = parseInt(document.getElementById('h').value);
+			var mi = parseInt(document.getElementById('mi').value);
+			var s = parseInt(document.getElementById('s').value);
+
+			var fechaAcutal = new Date();
+			var fin = new Date(a, d, h, mi, s, 0);
+			intervalo = setInterval(calcular, 500);
+		}
+
+		function calcular(){
+			var ahora = new Date();
+			if(ahora>fin){
+				alert('este es tu dia');
+				clearInterval(intervalo);
+			}else{
+				var s = parseInt((fin-ahora)/1000);
+				var s = s%60;
+				var mi = parseInt(s/60)%60;
+				var h = parseInt(s/3600)%24;
+				var d = parseInt(s/86400);
+
+				if(s<10) s = '0' +s;
+				if(mi<10) mi = '0' +mi;
+				if(h<10) h = '0' +h;
+
+			document.getElementById('s').innerHTML = segundos;
+			document.getElementById('mi').innerHTML = minutos;
+			document.getElementById('h').innerHTML = horas;
+			}
+
+		}
+	</script>
+	<h1>tiempo restante (muahahahahaha)</h1>
+	<span>dia :</span>
+	<input type="number" id="d" min="1" max="31"><br>
+	<span>mes :</span>
+	<br>
+	<span>año :</span>
+	<input type="number" id="a" min="1900" max="2100"><br>
+	<span>hora :</span>
+	<input type="number" id="h" min="00" max="24"><br>
+	<span>minutos :</span>
+	<input type="number" id="mi" min="00" max="60"><br>
+	<span>segundos :</span>
+	<input type="number" id="s" min="00" max="60"><br>
+	<button onclick="contra(); calcular();">yihaaaaa</button>
+	<hr>
+	DIAS : <span id="dia"> 0</span><br>
+	HORAS: <span id="horas">00</span>
+	<span id="minutos">00</span>
+	<span id="segundos">00</span>
+</body>
+</html>

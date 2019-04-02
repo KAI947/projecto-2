@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 2</title>
+	<style type="text/css">
+		label{
+			width: 700px;
+		}
+		form{
+			width: 40%;
+		}
+	</style>
+</head>
+<body>
+	<form method="get">
+		<fieldset>
+			<h1>Formulario De Registro</h1>
+			<label>Nombre de usuario</label>
+			<input type="text" name="usuario" placeholder="Ingrese aqui su nombre">
+			<label>Correo</label>
+			<input type="text" name="usuario" placeholder="Ingrese aqui su Correo"><br/>
+			<label>Contraseña</label>
+			<input type="text" name="usuario" placeholder="Ingrese aqui su Contraseña">
+			<label>Sexo</label>
+			<select>
+				<option selected="selected" value="No especificar">No espicificar</option>
+				<option value="Hombre">Hombre</option>
+				<option value="Mujer">Mujer</option>
+			</select>
+			<label>Pais</label>
+			<input type="text" name="usuario" placeholder="Ingrese aqui su Pais"><br/>
+			<label>Subir tu foto</label>
+			<input type="file" accept="image/*multiple" /><br/>
+			<label>Cuentanos sobre ti</label><br/>
+			<textarea rows="10" cols="50">Cuentanos sobre ti</textarea><br/>
+			<label>Cuanto sabes de HTML 5</label>
+		<input type="range" name="points" min="0" max="10" step="1" value="5"><br/>
+		<label>Desea suscribirse a nuestro boletin?</label>
+		<input type="radio" name="si" value="si"/>
+			<label>SI</label>
+			<input type="radio" name="no" value="no"/>
+			<label>NO</label>
+			<label>Cada cuantos dias desea recibirlo?</label>
+			<select>
+				<option selected="selected" value="1"></option>
+				<option value="2">15 dias</option>
+				<option value="3">20 dias</option>
+				<option value="4">25 dias</option>
+			</select>
+			<br/><input type="checkbox" name="">
+			<label>He leido los terminos de condiciones y uso</label>
+			<br/><input type="submit" name="Enviar">
+			<input type="reset" name="Cancelar">
+		</fieldset>
+	</form>
+</body>
+</html>

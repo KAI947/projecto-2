@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="utf-8">
+	<title>prueba</title>
+</head>
+<body>
+<script>
+	function textual(){
+		var texto = document.getElementById('texto').value;
+
+		for(var i = 0; i<texto.length; i++){
+			document.write(texto[i]+'<br />');
+		}
+	}
+	</script>
+	<span>ESCRIBE TU TEXTO</span>
+	<input type="text" id="texto"><br />
+	<button onclick="textual();">REALIZAR ACCION</button>
+</body>
+</html>
